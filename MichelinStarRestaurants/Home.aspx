@@ -10,7 +10,7 @@
             width: 100%;
         }
         .auto-style2 {
-            width: 919px;
+            width: 678px;
         }
         .auto-style4 {
             width: 125px;
@@ -33,6 +33,17 @@
         .auto-style11 {
             width: 404px;
         }
+        .auto-style12 {
+            width: 409px;
+            height: 257px;
+        }
+        .auto-style13 {
+            width: 402px;
+            height: 257px;
+        }
+        .auto-style14 {
+            height: 257px;
+        }
     </style>
 </head>
 <body>
@@ -53,7 +64,8 @@
             <br />
             <br />
         </div>
-        <div>Find Michelin Star Restaurants</div>
+        <div>Find Michelin Star Restaurants<br />
+        </div>
         <div>
             <table class="auto-style1">
                 <tr>
@@ -68,94 +80,119 @@
             <br />
             <br />
         </div>
-        <div>Select region that you want to search restaurant at:</div>
+        <div>Select region that you want to search restaurant at:<br />
+        </div>
         <table class="auto-style1">
             <tr>
                 <td class="auto-style9">
-                        <asp:Image ID="Image3" runat="server" Height="234px" ImageUrl="~/koala.png" Width="352px" />
+                    Austria<br />
+                        <asp:Image ID="Image3" runat="server" Height="234px" ImageUrl="~/pictures/austria.jpeg" Width="352px" />
                     </td>
                 <td class="auto-style8">
-                        <asp:Image ID="Image4" runat="server" Height="234px" ImageUrl="~/koala.png" Width="352px" />
+                    California<br />
+                        <asp:Image ID="Image4" runat="server" Height="234px" ImageUrl="~/pictures/california.jpeg" Width="352px" />
                     </td>
                 <td>
-                        <asp:Image ID="Image5" runat="server" Height="234px" ImageUrl="~/koala.png" Width="352px" />
+                    Chicago<br />
+                        <asp:Image ID="Image5" runat="server" Height="234px" ImageUrl="~/pictures/chicago.jpeg" Width="352px" />
                     </td>
             </tr>
             <tr>
                 <td class="auto-style9">
-                        <asp:Image ID="Image6" runat="server" Height="234px" ImageUrl="~/koala.png" Width="352px" />
+                    Croatia<br />
+                        <asp:Image ID="Image6" runat="server" Height="234px" ImageUrl="~/pictures/croatia.jpeg" Width="352px" />
                     </td>
                 <td class="auto-style8">
-                        <asp:Image ID="Image7" runat="server" Height="234px" ImageUrl="~/koala.png" Width="352px" />
+                    Czechia<br />
+                        <asp:Image ID="Image7" runat="server" Height="234px" ImageUrl="~/pictures/czechia.jpeg" Width="352px" />
                     </td>
                 <td>
-                        <asp:Image ID="Image8" runat="server" Height="234px" ImageUrl="~/koala.png" Width="352px" />
+                    Denmark<br />
+                        <asp:Image ID="Image8" runat="server" Height="234px" ImageUrl="~/pictures/denmark.jpeg" Width="352px" />
                     </td>
             </tr>
             <tr>
                 <td class="auto-style9">
-                        <asp:Image ID="Image9" runat="server" Height="234px" ImageUrl="~/koala.png" Width="352px" />
+                    Finland<br />
+                        <asp:Image ID="Image9" runat="server" Height="234px" ImageUrl="~/pictures/finland.jpeg" Width="352px" />
                     </td>
                 <td class="auto-style8">
-                        <asp:Image ID="Image10" runat="server" Height="234px" ImageUrl="~/koala.png" Width="352px" />
+                    Greece<br />
+                        <asp:Image ID="Image10" runat="server" Height="234px" ImageUrl="~/pictures/greece.jpeg" Width="352px" />
                     </td>
                 <td>
-                        <asp:Image ID="Image11" runat="server" Height="234px" ImageUrl="~/koala.png" Width="352px" />
+                    Hong Kong<br />
+                        <asp:Image ID="Image11" runat="server" Height="234px" ImageUrl="~/pictures/hong_kong.jpeg" Width="352px" />
                     </td>
             </tr>
             <tr>
                 <td class="auto-style9">
-                        <asp:Image ID="Image12" runat="server" Height="234px" ImageUrl="~/koala.png" Width="352px" />
+                    Hungary<br />
+                        <asp:Image ID="Image12" runat="server" Height="234px" ImageUrl="~/pictures/hungary.jpeg" Width="352px" />
                     </td>
                 <td class="auto-style8">
-                        <asp:Image ID="Image13" runat="server" Height="234px" ImageUrl="~/koala.png" Width="352px" />
+                    Ireland<br />
+                        <asp:Image ID="Image13" runat="server" Height="234px" ImageUrl="~/pictures/ireland.jpeg" Width="352px" />
                     </td>
                 <td>
-                        <asp:Image ID="Image14" runat="server" Height="234px" ImageUrl="~/koala.png" Width="352px" />
+                    Makau<br />
+                        <asp:Image ID="Image14" runat="server" Height="234px" ImageUrl="~/pictures/makau.jpeg" Width="352px" />
+                    </td>
+            </tr>
+            <tr>
+                <td class="auto-style12">
+                    New York City<br />
+                        <asp:Image ID="Image15" runat="server" Height="234px" ImageUrl="~/pictures/newyork.jpeg" Width="352px" />
+                    </td>
+                <td class="auto-style13">
+                    Norway<br />
+                        <asp:Image ID="Image16" runat="server" Height="234px" ImageUrl="~/pictures/norway.jpeg" Width="352px" />
+                    </td>
+                <td class="auto-style14">
+                    Poland<br />
+                        <asp:Image ID="Image17" runat="server" Height="234px" ImageUrl="~/pictures/poland.jpeg" Width="352px" />
                     </td>
             </tr>
             <tr>
                 <td class="auto-style9">
-                        <asp:Image ID="Image15" runat="server" Height="234px" ImageUrl="~/koala.png" Width="352px" />
+                    Rio de janeiro<br />
+                        <asp:Image ID="Image18" runat="server" Height="234px" ImageUrl="~/pictures/rio_da_janeiro.jpeg" Width="352px" />
                     </td>
                 <td class="auto-style8">
-                        <asp:Image ID="Image16" runat="server" Height="234px" ImageUrl="~/koala.png" Width="352px" />
+                    Sao Paulo<br />
+                        <asp:Image ID="Image19" runat="server" Height="234px" ImageUrl="~/pictures/sao_paulo.jpeg" Width="352px" />
                     </td>
                 <td>
-                        <asp:Image ID="Image17" runat="server" Height="234px" ImageUrl="~/koala.png" Width="352px" />
+                    Singapore<br />
+                        <asp:Image ID="Image20" runat="server" Height="234px" ImageUrl="~/pictures/singapore.jpeg" Width="352px" />
                     </td>
             </tr>
             <tr>
                 <td class="auto-style9">
-                        <asp:Image ID="Image18" runat="server" Height="234px" ImageUrl="~/koala.png" Width="352px" />
+                    South Korea<br />
+                        <asp:Image ID="Image21" runat="server" Height="234px" ImageUrl="~/pictures/south_korea.jpeg" Width="352px" />
                     </td>
                 <td class="auto-style8">
-                        <asp:Image ID="Image19" runat="server" Height="234px" ImageUrl="~/koala.png" Width="352px" />
+                    Sweden<br />
+                        <asp:Image ID="Image22" runat="server" Height="234px" ImageUrl="~/pictures/sweden.jpeg" Width="352px" />
                     </td>
                 <td>
-                        <asp:Image ID="Image20" runat="server" Height="234px" ImageUrl="~/koala.png" Width="352px" />
+                    Taipei<br />
+                        <asp:Image ID="Image23" runat="server" Height="234px" ImageUrl="~/pictures/taipei.jpeg" Width="352px" />
                     </td>
             </tr>
             <tr>
                 <td class="auto-style9">
-                        <asp:Image ID="Image21" runat="server" Height="234px" ImageUrl="~/koala.png" Width="352px" />
+                    Thailand<br />
+                        <asp:Image ID="Image24" runat="server" Height="234px" ImageUrl="~/pictures/thailand.jpeg" Width="352px" />
                     </td>
                 <td class="auto-style8">
-                        <asp:Image ID="Image22" runat="server" Height="234px" ImageUrl="~/koala.png" Width="352px" />
+                    United Kingdom<br />
+                        <asp:Image ID="Image25" runat="server" Height="234px" ImageUrl="~/pictures/united_kingdom.jpeg" Width="352px" />
                     </td>
                 <td>
-                        <asp:Image ID="Image23" runat="server" Height="234px" ImageUrl="~/koala.png" Width="352px" />
-                    </td>
-            </tr>
-            <tr>
-                <td class="auto-style9">
-                        <asp:Image ID="Image24" runat="server" Height="234px" ImageUrl="~/koala.png" Width="352px" />
-                    </td>
-                <td class="auto-style8">
-                        <asp:Image ID="Image25" runat="server" Height="234px" ImageUrl="~/koala.png" Width="352px" />
-                    </td>
-                <td>
-                        <asp:Image ID="Image26" runat="server" Height="234px" ImageUrl="~/koala.png" Width="352px" />
+                    Washington DC<br />
+                        <asp:Image ID="Image26" runat="server" Height="234px" ImageUrl="~/pictures/washington.jpeg" Width="352px" />
                     </td>
             </tr>
         </table>

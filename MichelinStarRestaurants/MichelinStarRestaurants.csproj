@@ -67,8 +67,32 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="pictures\austria.jpeg" />
+    <Content Include="pictures\california.jpeg" />
+    <Content Include="pictures\chicago.jpeg" />
+    <Content Include="pictures\croatia.jpeg" />
+    <Content Include="pictures\czechia.jpeg" />
+    <Content Include="pictures\denmark.jpeg" />
+    <Content Include="pictures\finland.jpeg" />
+    <Content Include="pictures\greece.jpeg" />
     <Content Include="Home.aspx" />
+    <Content Include="pictures\hong_kong.jpeg" />
+    <Content Include="pictures\hungary.jpeg" />
+    <Content Include="pictures\ireland.jpeg" />
     <Content Include="koala.png" />
+    <Content Include="pictures\makau.jpeg" />
+    <Content Include="pictures\newyork.jpeg" />
+    <Content Include="pictures\norway.jpeg" />
+    <Content Include="pictures\poland.jpeg" />
+    <Content Include="pictures\rio_da_janeiro.jpeg" />
+    <Content Include="pictures\sao_paulo.jpeg" />
+    <Content Include="pictures\singapore.jpeg" />
+    <Content Include="pictures\south_korea.jpeg" />
+    <Content Include="pictures\sweden.jpeg" />
+    <Content Include="pictures\taipei.jpeg" />
+    <Content Include="pictures\thailand.jpeg" />
+    <Content Include="pictures\united_kingdom.jpeg" />
+    <Content Include="pictures\washington.jpeg" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
