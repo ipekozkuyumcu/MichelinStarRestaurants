@@ -48,7 +48,7 @@ namespace MichelinStarRestaurants
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image austriaImg;
+        protected global::System.Web.UI.WebControls.ImageButton austriaImg;
 
         /// <summary>
         /// californiaImg control.
@@ -57,7 +57,7 @@ namespace MichelinStarRestaurants
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image californiaImg;
+        protected global::System.Web.UI.WebControls.ImageButton californiaImg;
 
         /// <summary>
         /// chicagoImg control.
@@ -66,7 +66,7 @@ namespace MichelinStarRestaurants
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image chicagoImg;
+        protected global::System.Web.UI.WebControls.ImageButton chicagoImg;
 
         /// <summary>
         /// croatiaImg control.
@@ -75,7 +75,7 @@ namespace MichelinStarRestaurants
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image croatiaImg;
+        protected global::System.Web.UI.WebControls.ImageButton croatiaImg;
 
         /// <summary>
         /// czechiaImg control.
@@ -84,7 +84,7 @@ namespace MichelinStarRestaurants
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image czechiaImg;
+        protected global::System.Web.UI.WebControls.ImageButton czechiaImg;
 
         /// <summary>
         /// denmarkImg control.
@@ -93,7 +93,7 @@ namespace MichelinStarRestaurants
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image denmarkImg;
+        protected global::System.Web.UI.WebControls.ImageButton denmarkImg;
 
         /// <summary>
         /// finlandImg control.
@@ -102,7 +102,7 @@ namespace MichelinStarRestaurants
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image finlandImg;
+        protected global::System.Web.UI.WebControls.ImageButton finlandImg;
 
         /// <summary>
         /// greeceImg control.
@@ -111,7 +111,7 @@ namespace MichelinStarRestaurants
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image greeceImg;
+        protected global::System.Web.UI.WebControls.ImageButton greeceImg;
 
         /// <summary>
         /// hongkongImg control.
@@ -120,7 +120,7 @@ namespace MichelinStarRestaurants
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image hongkongImg;
+        protected global::System.Web.UI.WebControls.ImageButton hongkongImg;
 
         /// <summary>
         /// hungaryImg control.
@@ -129,7 +129,7 @@ namespace MichelinStarRestaurants
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image hungaryImg;
+        protected global::System.Web.UI.WebControls.ImageButton hungaryImg;
 
         /// <summary>
         /// irelandImg control.
@@ -138,7 +138,7 @@ namespace MichelinStarRestaurants
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image irelandImg;
+        protected global::System.Web.UI.WebControls.ImageButton irelandImg;
 
         /// <summary>
         /// makauImg control.
@@ -147,7 +147,7 @@ namespace MichelinStarRestaurants
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image makauImg;
+        protected global::System.Web.UI.WebControls.ImageButton makauImg;
 
         /// <summary>
         /// newyorkImg control.
@@ -156,7 +156,7 @@ namespace MichelinStarRestaurants
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image newyorkImg;
+        protected global::System.Web.UI.WebControls.ImageButton newyorkImg;
 
         /// <summary>
         /// norwayImg control.
@@ -165,7 +165,7 @@ namespace MichelinStarRestaurants
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image norwayImg;
+        protected global::System.Web.UI.WebControls.ImageButton norwayImg;
 
         /// <summary>
         /// polandImg control.
@@ -174,7 +174,7 @@ namespace MichelinStarRestaurants
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image polandImg;
+        protected global::System.Web.UI.WebControls.ImageButton polandImg;
 
         /// <summary>
         /// riodejaneiroImg control.
@@ -183,7 +183,7 @@ namespace MichelinStarRestaurants
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image riodejaneiroImg;
+        protected global::System.Web.UI.WebControls.ImageButton riodejaneiroImg;
 
         /// <summary>
         /// saoPauloImg control.
@@ -192,7 +192,7 @@ namespace MichelinStarRestaurants
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image saoPauloImg;
+        protected global::System.Web.UI.WebControls.ImageButton saoPauloImg;
 
         /// <summary>
         /// singaporeImg control.
@@ -201,7 +201,7 @@ namespace MichelinStarRestaurants
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image singaporeImg;
+        protected global::System.Web.UI.WebControls.ImageButton singaporeImg;
 
         /// <summary>
         /// southkoreaImg control.
@@ -210,7 +210,7 @@ namespace MichelinStarRestaurants
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image southkoreaImg;
+        protected global::System.Web.UI.WebControls.ImageButton southkoreaImg;
 
         /// <summary>
         /// swedenImg control.
@@ -219,7 +219,7 @@ namespace MichelinStarRestaurants
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image swedenImg;
+        protected global::System.Web.UI.WebControls.ImageButton swedenImg;
 
         /// <summary>
         /// taipeiImg control.
@@ -228,7 +228,7 @@ namespace MichelinStarRestaurants
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image taipeiImg;
+        protected global::System.Web.UI.WebControls.ImageButton taipeiImg;
 
         /// <summary>
         /// thailandImg control.
@@ -237,7 +237,7 @@ namespace MichelinStarRestaurants
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image thailandImg;
+        protected global::System.Web.UI.WebControls.ImageButton thailandImg;
 
         /// <summary>
         /// unitedkingdomImg control.
@@ -246,7 +246,7 @@ namespace MichelinStarRestaurants
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image unitedkingdomImg;
+        protected global::System.Web.UI.WebControls.ImageButton unitedkingdomImg;
 
         /// <summary>
         /// washingtonImg control.
@@ -255,6 +255,6 @@ namespace MichelinStarRestaurants
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image washingtonImg;
+        protected global::System.Web.UI.WebControls.ImageButton washingtonImg;
     }
 }
