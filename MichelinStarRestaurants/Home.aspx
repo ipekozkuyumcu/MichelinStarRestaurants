@@ -10,14 +10,14 @@
             width: 100%;
         }
         .auto-style2 {
-            width: 678px;
+            width: 695px;
         }
         .auto-style4 {
-            width: 316px;
+            width: 253px;
             text-align: center;
         }
         .auto-style5 {
-            width: 136px;
+            width: 178px;
             text-align: center;
         }
         .auto-style6 {
@@ -25,7 +25,7 @@
             text-align: center;
         }
         .auto-style10 {
-            width: 410px;
+            width: 429px;
         }
         .auto-style11 {
             width: 404px;
@@ -41,7 +41,7 @@
         }
         .auto-style16 {
             width: 100%;
-            height: 97px;
+            height: 96px;
         }
         .auto-style17 {
             width: 443px;
@@ -65,6 +65,10 @@
             width: 835px;
             text-align: center;
         }
+        .auto-style25 {
+            width: 100%;
+            height: 495px;
+        }
     </style>
 </head>
 <body>
@@ -76,7 +80,8 @@
                         <asp:Image ID="logoImg" runat="server" Height="84px" ImageUrl="~/koala.png" Width="286px" />
                     </td>
                     <td class="auto-style5">Home</td>
-                    <td class="auto-style4">Search Restaurant</td>
+                    <td class="auto-style4">Search Restaurant<br />
+                        (Sayfayı region resimlerinin olduğu yere kaydırır)</td>
                     <td class="auto-style15">Gallery</td>
                 </tr>
             </table>
@@ -94,10 +99,10 @@
             <br />
         </div>
         <div>
-            <table class="auto-style1">
+            <table class="auto-style25">
                 <tr>
                     <td class="auto-style6">
-                        <asp:Image ID="homeImg" runat="server" Height="264px" ImageUrl="~/koala.png" Width="368px" />
+                        <asp:Image ID="homeImg" runat="server" Height="381px" ImageUrl="~/koala.png" Width="469px" />
                     </td>
                     <td>Site hakkında bilgi.</td>
                 </tr>
