@@ -42,219 +42,219 @@ namespace MichelinStarRestaurants
         protected global::System.Web.UI.WebControls.Image homeImg;
 
         /// <summary>
-        /// Image3 control.
+        /// austriaImg control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image Image3;
+        protected global::System.Web.UI.WebControls.Image austriaImg;
 
         /// <summary>
-        /// Image4 control.
+        /// californiaImg control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image Image4;
+        protected global::System.Web.UI.WebControls.Image californiaImg;
 
         /// <summary>
-        /// Image5 control.
+        /// chicagoImg control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image Image5;
+        protected global::System.Web.UI.WebControls.Image chicagoImg;
 
         /// <summary>
-        /// Image6 control.
+        /// croatiaImg control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image Image6;
+        protected global::System.Web.UI.WebControls.Image croatiaImg;
 
         /// <summary>
-        /// Image7 control.
+        /// czechiaImg control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image Image7;
+        protected global::System.Web.UI.WebControls.Image czechiaImg;
 
         /// <summary>
-        /// Image8 control.
+        /// denmarkImg control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image Image8;
+        protected global::System.Web.UI.WebControls.Image denmarkImg;
 
         /// <summary>
-        /// Image9 control.
+        /// finlandImg control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image Image9;
+        protected global::System.Web.UI.WebControls.Image finlandImg;
 
         /// <summary>
-        /// Image10 control.
+        /// greeceImg control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image Image10;
+        protected global::System.Web.UI.WebControls.Image greeceImg;
 
         /// <summary>
-        /// Image11 control.
+        /// hongkongImg control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image Image11;
+        protected global::System.Web.UI.WebControls.Image hongkongImg;
 
         /// <summary>
-        /// Image12 control.
+        /// hungaryImg control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image Image12;
+        protected global::System.Web.UI.WebControls.Image hungaryImg;
 
         /// <summary>
-        /// Image13 control.
+        /// irelandImg control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image Image13;
+        protected global::System.Web.UI.WebControls.Image irelandImg;
 
         /// <summary>
-        /// Image14 control.
+        /// makauImg control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image Image14;
+        protected global::System.Web.UI.WebControls.Image makauImg;
 
         /// <summary>
-        /// Image15 control.
+        /// newyorkImg control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image Image15;
+        protected global::System.Web.UI.WebControls.Image newyorkImg;
 
         /// <summary>
-        /// Image16 control.
+        /// norwayImg control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image Image16;
+        protected global::System.Web.UI.WebControls.Image norwayImg;
 
         /// <summary>
-        /// Image17 control.
+        /// polandImg control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image Image17;
+        protected global::System.Web.UI.WebControls.Image polandImg;
 
         /// <summary>
-        /// Image18 control.
+        /// riodejaneiroImg control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image Image18;
+        protected global::System.Web.UI.WebControls.Image riodejaneiroImg;
 
         /// <summary>
-        /// Image19 control.
+        /// saoPauloImg control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image Image19;
+        protected global::System.Web.UI.WebControls.Image saoPauloImg;
 
         /// <summary>
-        /// Image20 control.
+        /// singaporeImg control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image Image20;
+        protected global::System.Web.UI.WebControls.Image singaporeImg;
 
         /// <summary>
-        /// Image21 control.
+        /// southkoreaImg control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image Image21;
+        protected global::System.Web.UI.WebControls.Image southkoreaImg;
 
         /// <summary>
-        /// Image22 control.
+        /// swedenImg control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image Image22;
+        protected global::System.Web.UI.WebControls.Image swedenImg;
 
         /// <summary>
-        /// Image23 control.
+        /// taipeiImg control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image Image23;
+        protected global::System.Web.UI.WebControls.Image taipeiImg;
 
         /// <summary>
-        /// Image24 control.
+        /// thailandImg control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image Image24;
+        protected global::System.Web.UI.WebControls.Image thailandImg;
 
         /// <summary>
-        /// Image25 control.
+        /// unitedkingdomImg control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image Image25;
+        protected global::System.Web.UI.WebControls.Image unitedkingdomImg;
 
         /// <summary>
-        /// Image26 control.
+        /// washingtonImg control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image Image26;
+        protected global::System.Web.UI.WebControls.Image washingtonImg;
     }
 }
