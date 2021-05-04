@@ -94,20 +94,20 @@
             <table class="auto-style16">
                 <tr>
                     <td class="auto-style17">(Region&#39;s picture - önceki sayfada seçilen) (Ne seçilirse ona göre)<br />
-                        <asp:Image ID="Image1" runat="server" Height="402px" ImageUrl="~/koala.png" Width="445px" />
+                        <asp:Image ID="regionImg" runat="server" Height="402px" ImageUrl="~/koala.png" Width="445px" />
                     </td>
                     <td>
                         <table class="auto-style18">
                             <tr>
                                 <td class="auto-style19">
-                                    <asp:DropDownList ID="DropDownList1" runat="server" Height="90px" Width="363px">
+                                    <asp:DropDownList ID="cityList" runat="server" Height="90px" Width="363px">
                                     </asp:DropDownList>
                                     <br />
                                     (Seçilen Region&#39;un şehirleri)</td>
                             </tr>
                             <tr>
                                 <td class="auto-style20">
-                                    <asp:Button ID="Button1" runat="server" Height="30px" Text="Search Restaurant" Width="163px" />
+                                    <asp:Button ID="searchRestaurantButton" runat="server" Height="30px" Text="Search Restaurant" Width="163px" />
 &nbsp;<br />
                                     (Restaurant sayfasına gider)</td>
                             </tr>
