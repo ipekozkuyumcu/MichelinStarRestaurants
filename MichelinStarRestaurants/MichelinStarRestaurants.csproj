@@ -67,32 +67,56 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="pictures\austria.jpeg" />
-    <Content Include="pictures\california.jpeg" />
-    <Content Include="pictures\chicago.jpeg" />
-    <Content Include="pictures\croatia.jpeg" />
-    <Content Include="pictures\czechia.jpeg" />
-    <Content Include="pictures\denmark.jpeg" />
-    <Content Include="pictures\finland.jpeg" />
-    <Content Include="pictures\greece.jpeg" />
     <Content Include="Home.aspx" />
-    <Content Include="pictures\hong_kong.jpeg" />
-    <Content Include="pictures\hungary.jpeg" />
-    <Content Include="pictures\ireland.jpeg" />
     <Content Include="koala.png" />
+    <Content Include="pictures\austria.jpeg" />
+    <Content Include="pictures\austria.png" />
+    <Content Include="pictures\california.jpeg" />
+    <Content Include="pictures\california.png" />
+    <Content Include="pictures\chicago.jpeg" />
+    <Content Include="pictures\chicago.png" />
+    <Content Include="pictures\croatia.jpeg" />
+    <Content Include="pictures\croatia.png" />
+    <Content Include="pictures\czechia.jpeg" />
+    <Content Include="pictures\czechia.png" />
+    <Content Include="pictures\denmark.jpeg" />
+    <Content Include="pictures\denmark.png" />
+    <Content Include="pictures\finland.jpeg" />
+    <Content Include="pictures\finland.png" />
+    <Content Include="pictures\greece.jpeg" />
+    <Content Include="pictures\greece.png" />
+    <Content Include="pictures\hong_kong.jpeg" />
+    <Content Include="pictures\hong_kong.png" />
+    <Content Include="pictures\hungary.jpeg" />
+    <Content Include="pictures\hungary.png" />
+    <Content Include="pictures\ireland.jpeg" />
+    <Content Include="pictures\ireland.png" />
     <Content Include="pictures\makau.jpeg" />
+    <Content Include="pictures\makau.png" />
     <Content Include="pictures\newyork.jpeg" />
+    <Content Include="pictures\newyork.png" />
     <Content Include="pictures\norway.jpeg" />
+    <Content Include="pictures\norway.png" />
     <Content Include="pictures\poland.jpeg" />
+    <Content Include="pictures\poland.png" />
     <Content Include="pictures\rio_da_janeiro.jpeg" />
+    <Content Include="pictures\rio_da_janeiro.png" />
     <Content Include="pictures\sao_paulo.jpeg" />
+    <Content Include="pictures\sao_paulo.png" />
     <Content Include="pictures\singapore.jpeg" />
+    <Content Include="pictures\singapore.png" />
     <Content Include="pictures\south_korea.jpeg" />
+    <Content Include="pictures\south_korea.png" />
     <Content Include="pictures\sweden.jpeg" />
+    <Content Include="pictures\sweden.png" />
     <Content Include="pictures\taipei.jpeg" />
+    <Content Include="pictures\taipei.png" />
     <Content Include="pictures\thailand.jpeg" />
+    <Content Include="pictures\thailand.png" />
     <Content Include="pictures\united_kingdom.jpeg" />
+    <Content Include="pictures\united_kingdom.png" />
     <Content Include="pictures\washington.jpeg" />
+    <Content Include="pictures\washington.png" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
