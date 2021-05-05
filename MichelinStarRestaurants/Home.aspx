@@ -11,17 +11,21 @@
         }
         .auto-style2 {
             width: 695px;
+            height: 94px;
+            text-align: center;
         }
         .auto-style4 {
             width: 253px;
             text-align: center;
+            height: 94px;
         }
         .auto-style5 {
             width: 178px;
             text-align: center;
+            height: 94px;
         }
         .auto-style6 {
-            width: 493px;
+            width: 529px;
             text-align: center;
         }
         .auto-style10 {
@@ -32,11 +36,8 @@
             text-align: center;
         }
         .auto-style12 {
-            width: 443px;
+            width: 481px;
             height: 257px;
-            text-align: center;
-        }
-        .auto-style15 {
             text-align: center;
         }
         .auto-style16 {
@@ -44,7 +45,7 @@
             height: 96px;
         }
         .auto-style17 {
-            width: 443px;
+            width: 481px;
             text-align: center;
         }
         .auto-style20 {
@@ -57,85 +58,122 @@
             text-align: center;
         }
         .auto-style23 {
-            width: 835px;
+            width: 801px;
             height: 257px;
             text-align: center;
         }
         .auto-style24 {
-            width: 835px;
+            width: 801px;
             text-align: center;
         }
         .auto-style25 {
             width: 100%;
-            height: 495px;
+            height: 501px;
+        }
+        .auto-style26 {
+            text-align: center;
+            height: 149px;
+        }
+        .auto-style28 {
+            height: 64px;
+        }
+        .auto-style29 {
+            text-align: center;
+            height: 94px;
+        }
+        .auto-style30 {
+            width: 100%;
+            height: 71px;
+        }
+        .auto-style31 {
+            text-align: center;
+        }
+        .auto-style32 {
+            font-size: large;
         }
     </style>
 </head>
 <body>
     <form id="form1" runat="server">
         <div>
-            <table class="auto-style16">
+            <table class="auto-style16" id="header">
                 <tr>
-                    <td class="auto-style2">
-                        <asp:Image ID="logoImg" runat="server" Height="84px" ImageUrl="~/koala.png" Width="286px" />
+                    <td class="auto-style2" id="logoImgHolder">
+                        <asp:Image ID="logoImg" runat="server" Height="173px" ImageUrl="~/pictures/logo.png" Width="362px" />
                     </td>
-                    <td class="auto-style5">Home</td>
-                    <td class="auto-style4">Search Restaurant<br />
+                    <td class="auto-style5" id="homeMenu">
+                        <asp:Label ID="homeMenuLabel" runat="server" Text="Home"></asp:Label>
+                    </td>
+                    <td class="auto-style4" id="searchMenu">
+                        <asp:Label ID="searchMenuLabel" runat="server" Text="Search Restaurant"></asp:Label>
+                        <br />
                         (Sayfayı region resimlerinin olduğu yere kaydırır)</td>
-                    <td class="auto-style15">Gallery</td>
-                </tr>
-            </table>
-        </div>
-        <div>
-            <br />
-            <br />
-            <br />
-            <br />
-        </div>
-        <div class="auto-style15">Find Michelin Star Restaurants<br />
-            <br />
-            <br />
-            <br />
-            <br />
-        </div>
-        <div>
-            <table class="auto-style25">
-                <tr>
-                    <td class="auto-style6">
-                        <asp:Image ID="homeImg" runat="server" Height="381px" ImageUrl="~/koala.png" Width="469px" />
+                    <td class="auto-style29" id="galleryMenu">
+                        <asp:Label ID="galleryMenuLabel" runat="server" Text="Gallery"></asp:Label>
                     </td>
-                    <td>Site hakkında bilgi.</td>
                 </tr>
             </table>
         </div>
+        <div id="blank1">
+            <br />
+            <br />
+            <br />
+        </div>
+        <div class="auto-style26" id="homeTitleTable">
+            <h1 id="homeTitle">FIND MICHELIN STAR RESTAURANTS</h1>
+            <h2 id="welcomeTitle" class="auto-style28"><br />
+                Welcome!<br />
+            <br />
+            <br />
+            <br />
+            </h2>
+        </div>
         <div>
+            <table class="auto-style25" id="homeInformationTable">
+                <tr>
+                    <td class="auto-style6" id="homeImgHolder">
+                        <asp:Image ID="homeImg" runat="server" Height="338px" ImageUrl="~/pictures/homePageImg.jpg" Width="462px" />
+                    </td>
+                    <td id="infoHolder" class="auto-style31">This website provides information about Michelin Starred restaurants around the world!<br />
+                        <br />
+                        By clicking on &quot;Search Restaurant&quot; tab from the menu above, or scrolling down you can select the region that you want to search a Michelin Starred restaurant at. Then this website will guide what you need to do in order to find out which Michelin Starred restaurants are located in your preferred area.
+                        <br />
+                        <br />
+                        By using &quot;Gallery&quot; tab from the menu above you can see some beautiful restaurant pictures and their locations.
+                        <br />
+                        <br />
+                        Have fun!</td>
+                </tr>
+            </table>
+        </div>
+        <div id="blank2">
             <br />
             <br />
             <br />
             <br />
+            <strong>
+            <br class="auto-style32" />
+            </strong>
+        </div>
+        <div id="selectRegionTextHolder"><strong><span class="auto-style32">Select the region that you want to search a restaurant at:</span></strong><br />
             <br />
             <br />
         </div>
-        <div>Select the region that you want to search a restaurant at:<br />
-            <br />
-            <br />
-            <br />
-        </div>
-        <table class="auto-style1">
+        <table class="auto-style1" id="regionSelectionTable">
             <tr>
-                <td class="auto-style17">
+                <td class="auto-style17" id="austria">
                     <br />
                     Austria<br />
                     <br />
                         <asp:ImageButton ID="austriaImg" runat="server" Height="234px" ImageUrl="~/pictures/austria.jpeg" Width="352px" />
                     </td>
-                <td class="auto-style24">
+                <td class="auto-style24" id="california">
                     <br />
                     California<br />
                     <br />
                         <asp:ImageButton ID="californiaImg" runat="server" Height="234px" ImageUrl="~/pictures/california.jpeg" Width="352px" />
                     </td>
-                <td class="auto-style21">
+                <td class="auto-style21" id="chicago">
                     <br />
                     Chicago<br />
                     <br />
@@ -143,19 +181,19 @@
                     </td>
             </tr>
             <tr>
-                <td class="auto-style17">
+                <td class="auto-style17" id="croatia">
                     <br />
                     Croatia<br />
                     <br />
                         <asp:ImageButton ID="croatiaImg" runat="server" Height="234px" ImageUrl="~/pictures/croatia.jpeg" Width="352px" />
                     </td>
-                <td class="auto-style24">
+                <td class="auto-style24" id="czechia">
                     <br />
                     Czechia<br />
                     <br />
                         <asp:ImageButton ID="czechiaImg" runat="server" Height="234px" ImageUrl="~/pictures/czechia.jpeg" Width="352px" />
                     </td>
-                <td class="auto-style21">
+                <td class="auto-style21" id="denmark">
                     <br />
                     Denmark<br />
                     <br />
@@ -163,19 +201,19 @@
                     </td>
             </tr>
             <tr>
-                <td class="auto-style17">
+                <td class="auto-style17" id="finland">
                     <br />
                     Finland<br />
                     <br />
                         <asp:ImageButton ID="finlandImg" runat="server" Height="234px" ImageUrl="~/pictures/finland.jpeg" Width="352px" />
                     </td>
-                <td class="auto-style24">
+                <td class="auto-style24" id="greece">
                     <br />
                     Greece<br />
                     <br />
                         <asp:ImageButton ID="greeceImg" runat="server" Height="234px" ImageUrl="~/pictures/greece.jpeg" Width="352px" />
                     </td>
-                <td class="auto-style21">
+                <td class="auto-style21" id="hongKong">
                     <br />
                     Hong Kong<br />
                     <br />
@@ -183,19 +221,19 @@
                     </td>
             </tr>
             <tr>
-                <td class="auto-style17">
+                <td class="auto-style17" id="hungary">
                     <br />
                     Hungary<br />
                     <br />
                         <asp:ImageButton ID="hungaryImg" runat="server" Height="234px" ImageUrl="~/pictures/hungary.jpeg" Width="352px" />
                     </td>
-                <td class="auto-style24">
+                <td class="auto-style24" id="ireland">
                     <br />
                     Ireland<br />
                     <br />
                         <asp:ImageButton ID="irelandImg" runat="server" Height="234px" ImageUrl="~/pictures/ireland.jpeg" Width="352px" />
                     </td>
-                <td class="auto-style21">
+                <td class="auto-style21" id="makau">
                     <br />
                     Makau<br />
                     <br />
@@ -203,19 +241,19 @@
                     </td>
             </tr>
             <tr>
-                <td class="auto-style12">
+                <td class="auto-style12" id="newYorkCity">
                     <br />
                     New York City<br />
                     <br />
                         <asp:ImageButton ID="newyorkImg" runat="server" Height="234px" ImageUrl="~/pictures/newyork.jpeg" Width="352px" />
                     </td>
-                <td class="auto-style23">
+                <td class="auto-style23" id="norway">
                     <br />
                     Norway<br />
                     <br />
                         <asp:ImageButton ID="norwayImg" runat="server" Height="234px" ImageUrl="~/pictures/norway.jpeg" Width="352px" />
                     </td>
-                <td class="auto-style20">
+                <td class="auto-style20" id="poland">
                     <br />
                     Poland<br />
                     <br />
@@ -223,19 +261,19 @@
                     </td>
             </tr>
             <tr>
-                <td class="auto-style17">
+                <td class="auto-style17" id="rioDeJaneiro">
                     <br />
-                    Rio de janeiro<br />
+                    Rio de Janeiro<br />
                     <br />
                         <asp:ImageButton ID="riodejaneiroImg" runat="server" Height="234px" ImageUrl="~/pictures/rio_da_janeiro.jpeg" Width="352px" />
                     </td>
-                <td class="auto-style24">
+                <td class="auto-style24" id="saoPaulo">
                     <br />
                     Sao Paulo<br />
                     <br />
                         <asp:ImageButton ID="saoPauloImg" runat="server" Height="234px" ImageUrl="~/pictures/sao_paulo.jpeg" Width="352px" />
                     </td>
-                <td class="auto-style21">
+                <td class="auto-style21" id="singapore">
                     <br />
                     Singapore<br />
                     <br />
@@ -243,19 +281,19 @@
                     </td>
             </tr>
             <tr>
-                <td class="auto-style17">
+                <td class="auto-style17" id="southKorea">
                     <br />
                     South Korea<br />
                     <br />
                         <asp:ImageButton ID="southkoreaImg" runat="server" Height="234px" ImageUrl="~/pictures/south_korea.jpeg" Width="352px" />
                     </td>
-                <td class="auto-style24">
+                <td class="auto-style24" id="sweden">
                     <br />
                     Sweden<br />
                     <br />
                         <asp:ImageButton ID="swedenImg" runat="server" Height="234px" ImageUrl="~/pictures/sweden.jpeg" Width="352px" />
                     </td>
-                <td class="auto-style21">
+                <td class="auto-style21" id="taipei">
                     <br />
                     Taipei<br />
                     <br />
@@ -263,19 +301,19 @@
                     </td>
             </tr>
             <tr>
-                <td class="auto-style17">
+                <td class="auto-style17" id="thailand">
                     <br />
                     Thailand<br />
                     <br />
                         <asp:ImageButton ID="thailandImg" runat="server" Height="234px" ImageUrl="~/pictures/thailand.jpeg" Width="352px" />
                     </td>
-                <td class="auto-style24">
+                <td class="auto-style24" id="unitedKingdom">
                     <br />
                     United Kingdom<br />
                     <br />
                         <asp:ImageButton ID="unitedkingdomImg" runat="server" Height="234px" ImageUrl="~/pictures/united_kingdom.jpeg" Width="352px" />
                     </td>
-                <td class="auto-style21">
+                <td class="auto-style21" id="washingtonDC">
                     <br />
                     Washington DC<br />
                     <br />
@@ -283,18 +321,21 @@
                     </td>
             </tr>
         </table>
-        <div>
+        <div id="blank3">
+            <br />
             <br />
             <br />
             <br />
         </div>
         <div>
-            <table class="auto-style1">
+            <table class="auto-style30" id="footer">
                 <tr>
-                    <td class="auto-style10">&nbsp;</td>
-                    <td class="auto-style11">copyright</td>
-                    <td>Made for school project<br />
-                        Github link:</td>
+                    <td class="auto-style10" id="footerBlank">&nbsp;</td>
+                    <td class="auto-style11" id="copyrightTextHolder">Copyright © 2021&nbsp;</td>
+                    <td id="gitHubTextHolder" class="auto-style31">This website is made for a school project. You are welcome to check our open-source codes from the GitHub link below:<br />
+                        <br />
+                        <asp:LinkButton ID="gitHubLink" runat="server">https://github.com/ipekozkuyumcu/MichelinStarRestaurants</asp:LinkButton>
+                    </td>
                 </tr>
             </table>
         </div>

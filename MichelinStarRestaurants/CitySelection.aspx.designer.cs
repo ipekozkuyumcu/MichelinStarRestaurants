@@ -33,6 +33,33 @@ namespace MichelinStarRestaurants
         protected global::System.Web.UI.WebControls.Image logoImg;
 
         /// <summary>
+        /// homeMenuLabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label homeMenuLabel;
+
+        /// <summary>
+        /// searchMenuLabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label searchMenuLabel;
+
+        /// <summary>
+        /// galleryMenuLabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label galleryMenuLabel;
+
+        /// <summary>
         /// regionImg control.
         /// </summary>
         /// <remarks>
@@ -58,5 +85,14 @@ namespace MichelinStarRestaurants
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button searchRestaurantButton;
+
+        /// <summary>
+        /// gitHubLink control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton gitHubLink;
     }
 }
