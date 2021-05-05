@@ -92,19 +92,19 @@
     <Content Include="pictures\hong_kong.png" />
     <Content Include="pictures\hungary.jpeg" />
     <Content Include="pictures\hungary.png" />
-    <Content Include="pictures\ireland.jpeg" />
-    <Content Include="pictures\ireland.png" />
+    <Content Include="pictures\ıreland.jpeg" />
+    <Content Include="pictures\ıreland.png" />
     <Content Include="pictures\logo.png" />
     <Content Include="pictures\makau.jpeg" />
     <Content Include="pictures\makau.png" />
-    <Content Include="pictures\newyork.jpeg" />
-    <Content Include="pictures\newyork.png" />
+    <Content Include="pictures\new_york_city.jpeg" />
+    <Content Include="pictures\new_york_city.png" />
     <Content Include="pictures\norway.jpeg" />
     <Content Include="pictures\norway.png" />
     <Content Include="pictures\poland.jpeg" />
     <Content Include="pictures\poland.png" />
-    <Content Include="pictures\rio_da_janeiro.jpeg" />
-    <Content Include="pictures\rio_da_janeiro.png" />
+    <Content Include="pictures\rio_de_janeiro.jpeg" />
+    <Content Include="pictures\rio_de_janeiro.png" />
     <Content Include="pictures\sao_paulo.jpeg" />
     <Content Include="pictures\sao_paulo.png" />
     <Content Include="pictures\singapore.jpeg" />
@@ -119,9 +119,10 @@
     <Content Include="pictures\thailand.png" />
     <Content Include="pictures\united_kingdom.jpeg" />
     <Content Include="pictures\united_kingdom.png" />
-    <Content Include="pictures\washington.jpeg" />
-    <Content Include="pictures\washington.png" />
+    <Content Include="pictures\washington_dc.jpeg" />
+    <Content Include="pictures\washington_dc.png" />
     <Content Include="Restaurant.aspx" />
+    <Content Include="restaurants.mdb" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

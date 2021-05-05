@@ -11,7 +11,14 @@ namespace MichelinStarRestaurants
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            //var id = Request.QueryString["id"];
+            string region = Request.QueryString["region"];
+            string changedText = region.Trim().Replace(" ", "_");
+            changedText = changedText.ToLower();
+            string imgUrl = "pictures/" + changedText + ".jpeg";
+            regionImg.ImageUrl = imgUrl;
+            regionLtrl.Text = region;
+            
         }
     }
 }

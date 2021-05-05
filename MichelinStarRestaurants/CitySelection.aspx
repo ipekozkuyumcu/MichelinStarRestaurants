@@ -83,8 +83,10 @@
         <div>
             <table class="auto-style16" id="citySelectionTable">
                 <tr>
-                    <td class="auto-style17" id="regionImgHolder">(Region&#39;s picture - önceki sayfada seçilen) (Ne seçilirse ona göre)<br />
-                        <asp:Image ID="regionImg" runat="server" Height="232px" ImageUrl="~/koala.png" Width="355px" />
+                    <td class="auto-style17" id="regionImgHolder">
+                        <asp:Literal ID="regionLtrl" runat="server"></asp:Literal>
+                        <br />
+                        <asp:Image ID="regionImg" runat="server" Height="232px" ImageUrl="~/pictures/austria.jpeg" Width="355px" />
                     </td>
                     <td>
                         <table class="auto-style18" id="citySelectionInnerTable">

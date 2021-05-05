@@ -60,6 +60,15 @@ namespace MichelinStarRestaurants
         protected global::System.Web.UI.WebControls.Label galleryMenuLabel;
 
         /// <summary>
+        /// regionLtrl control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Literal regionLtrl;
+
+        /// <summary>
         /// regionImg control.
         /// </summary>
         /// <remarks>

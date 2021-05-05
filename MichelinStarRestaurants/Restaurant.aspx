@@ -128,10 +128,16 @@
                         <asp:TextBox ID="awardedYearTextBox" runat="server" Height="25px" Width="192px"></asp:TextBox>
                     </td>
                 </tr>
+                
                 <tr>
-                    <td class="auto-style41" id="labelHolder3">URL of restaurant site:</td>
+                    <td class="auto-style41" id="labelHolder3">Star type:</td>
                     <td id="textBoxHolder3" class="auto-style42">
-                        <asp:LinkButton ID="restaurantURL" runat="server">LinkButton</asp:LinkButton>
+                        &nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style41" id="labelHolder4">URL of restaurant site:</td>
+                    <td id="textBoxHolder4" class="auto-style42">
+                        <asp:HyperLink ID="restaurantUrl" runat="server">HyperLink</asp:HyperLink>
                         <br />
                         <br />
                         You can find restaurant&#39;s location using the URL above.</td>

@@ -165,19 +165,19 @@
                     <br />
                     Austria<br />
                     <br />
-                        <asp:ImageButton ID="austriaImg" runat="server" Height="234px" ImageUrl="~/pictures/austria.jpeg" Width="352px" />
+                        <asp:ImageButton ID="austriaImg" runat="server" Height="234px" ImageUrl="~/pictures/austria.jpeg" Width="352px" OnClick="ImageButton_Click" AlternateText="Austria" />
                     </td>
                 <td class="auto-style24" id="california">
                     <br />
                     California<br />
                     <br />
-                        <asp:ImageButton ID="californiaImg" runat="server" Height="234px" ImageUrl="~/pictures/california.jpeg" Width="352px" />
+                        <asp:ImageButton ID="californiaImg" runat="server" Height="234px" ImageUrl="~/pictures/california.jpeg" Width="352px" OnClick="ImageButton_Click" AlternateText="California"/>
                     </td>
                 <td class="auto-style21" id="chicago">
                     <br />
                     Chicago<br />
                     <br />
-                        <asp:ImageButton ID="chicagoImg" runat="server" Height="234px" ImageUrl="~/pictures/chicago.jpeg" Width="352px" />
+                        <asp:ImageButton ID="chicagoImg" runat="server" Height="234px" ImageUrl="~/pictures/chicago.jpeg" Width="352px" OnClick="ImageButton_Click" AlternateText="Chicago"/>
                     </td>
             </tr>
             <tr>
@@ -185,19 +185,19 @@
                     <br />
                     Croatia<br />
                     <br />
-                        <asp:ImageButton ID="croatiaImg" runat="server" Height="234px" ImageUrl="~/pictures/croatia.jpeg" Width="352px" />
+                        <asp:ImageButton ID="croatiaImg" runat="server" Height="234px" ImageUrl="~/pictures/croatia.jpeg" Width="352px" OnClick="ImageButton_Click" AlternateText="Croatia"/>
                     </td>
                 <td class="auto-style24" id="czechia">
                     <br />
                     Czechia<br />
                     <br />
-                        <asp:ImageButton ID="czechiaImg" runat="server" Height="234px" ImageUrl="~/pictures/czechia.jpeg" Width="352px" />
+                        <asp:ImageButton ID="czechiaImg" runat="server" Height="234px" ImageUrl="~/pictures/czechia.jpeg" Width="352px" OnClick="ImageButton_Click" AlternateText="Czechia"/>
                     </td>
                 <td class="auto-style21" id="denmark">
                     <br />
                     Denmark<br />
                     <br />
-                        <asp:ImageButton ID="denmarkImg" runat="server" Height="234px" ImageUrl="~/pictures/denmark.jpeg" Width="352px" />
+                        <asp:ImageButton ID="denmarkImg" runat="server" Height="234px" ImageUrl="~/pictures/denmark.jpeg" Width="352px" OnClick="ImageButton_Click" AlternateText="Denmark"/>
                     </td>
             </tr>
             <tr>
@@ -205,19 +205,19 @@
                     <br />
                     Finland<br />
                     <br />
-                        <asp:ImageButton ID="finlandImg" runat="server" Height="234px" ImageUrl="~/pictures/finland.jpeg" Width="352px" />
+                        <asp:ImageButton ID="finlandImg" runat="server" Height="234px" ImageUrl="~/pictures/finland.jpeg" Width="352px" OnClick="ImageButton_Click" AlternateText="Finland"/>
                     </td>
                 <td class="auto-style24" id="greece">
                     <br />
                     Greece<br />
                     <br />
-                        <asp:ImageButton ID="greeceImg" runat="server" Height="234px" ImageUrl="~/pictures/greece.jpeg" Width="352px" />
+                        <asp:ImageButton ID="greeceImg" runat="server" Height="234px" ImageUrl="~/pictures/greece.jpeg" Width="352px" OnClick="ImageButton_Click" AlternateText="Greece"/>
                     </td>
                 <td class="auto-style21" id="hongKong">
                     <br />
                     Hong Kong<br />
                     <br />
-                        <asp:ImageButton ID="hongkongImg" runat="server" Height="234px" ImageUrl="~/pictures/hong_kong.jpeg" Width="352px" />
+                        <asp:ImageButton ID="hongkongImg" runat="server" Height="234px" ImageUrl="~/pictures/hong_kong.jpeg" Width="352px" OnClick="ImageButton_Click" AlternateText="Hong Kong"/>
                     </td>
             </tr>
             <tr>
@@ -225,19 +225,19 @@
                     <br />
                     Hungary<br />
                     <br />
-                        <asp:ImageButton ID="hungaryImg" runat="server" Height="234px" ImageUrl="~/pictures/hungary.jpeg" Width="352px" />
+                        <asp:ImageButton ID="hungaryImg" runat="server" Height="234px" ImageUrl="~/pictures/hungary.jpeg" Width="352px" OnClick="ImageButton_Click" AlternateText="Hungary"/>
                     </td>
                 <td class="auto-style24" id="ireland">
                     <br />
                     Ireland<br />
                     <br />
-                        <asp:ImageButton ID="irelandImg" runat="server" Height="234px" ImageUrl="~/pictures/ireland.jpeg" Width="352px" />
+                        <asp:ImageButton ID="irelandImg" runat="server" Height="234px" ImageUrl="~/pictures/ireland.jpeg" Width="352px" OnClick="ImageButton_Click" AlternateText="Ireland"/>
                     </td>
                 <td class="auto-style21" id="makau">
                     <br />
                     Makau<br />
                     <br />
-                        <asp:ImageButton ID="makauImg" runat="server" Height="234px" ImageUrl="~/pictures/makau.jpeg" Width="352px" />
+                        <asp:ImageButton ID="makauImg" runat="server" Height="234px" ImageUrl="~/pictures/makau.jpeg" Width="352px" OnClick="ImageButton_Click" AlternateText="Makau"/>
                     </td>
             </tr>
             <tr>
@@ -245,19 +245,19 @@
                     <br />
                     New York City<br />
                     <br />
-                        <asp:ImageButton ID="newyorkImg" runat="server" Height="234px" ImageUrl="~/pictures/newyork.jpeg" Width="352px" />
+                        <asp:ImageButton ID="newyorkImg" runat="server" Height="234px" ImageUrl="~/pictures/newyork.jpeg" Width="352px" OnClick="ImageButton_Click" AlternateText="New York City"/>
                     </td>
                 <td class="auto-style23" id="norway">
                     <br />
                     Norway<br />
                     <br />
-                        <asp:ImageButton ID="norwayImg" runat="server" Height="234px" ImageUrl="~/pictures/norway.jpeg" Width="352px" />
+                        <asp:ImageButton ID="norwayImg" runat="server" Height="234px" ImageUrl="~/pictures/norway.jpeg" Width="352px" OnClick="ImageButton_Click" AlternateText="Norway" />
                     </td>
                 <td class="auto-style20" id="poland">
                     <br />
                     Poland<br />
                     <br />
-                        <asp:ImageButton ID="polandImg" runat="server" Height="234px" ImageUrl="~/pictures/poland.jpeg" Width="352px" />
+                        <asp:ImageButton ID="polandImg" runat="server" Height="234px" ImageUrl="~/pictures/poland.jpeg" Width="352px" OnClick="ImageButton_Click" AlternateText="Poland"/>
                     </td>
             </tr>
             <tr>
@@ -265,19 +265,19 @@
                     <br />
                     Rio de Janeiro<br />
                     <br />
-                        <asp:ImageButton ID="riodejaneiroImg" runat="server" Height="234px" ImageUrl="~/pictures/rio_da_janeiro.jpeg" Width="352px" />
+                        <asp:ImageButton ID="riodejaneiroImg" runat="server" Height="234px" ImageUrl="~/pictures/rio_da_janeiro.jpeg" Width="352px" OnClick="ImageButton_Click" AlternateText="Rio de Janeiro"/>
                     </td>
                 <td class="auto-style24" id="saoPaulo">
                     <br />
                     Sao Paulo<br />
                     <br />
-                        <asp:ImageButton ID="saoPauloImg" runat="server" Height="234px" ImageUrl="~/pictures/sao_paulo.jpeg" Width="352px" />
+                        <asp:ImageButton ID="saoPauloImg" runat="server" Height="234px" ImageUrl="~/pictures/sao_paulo.jpeg" Width="352px" OnClick="ImageButton_Click" AlternateText="Sao Paulo"/>
                     </td>
                 <td class="auto-style21" id="singapore">
                     <br />
                     Singapore<br />
                     <br />
-                        <asp:ImageButton ID="singaporeImg" runat="server" Height="234px" ImageUrl="~/pictures/singapore.jpeg" Width="352px" />
+                        <asp:ImageButton ID="singaporeImg" runat="server" Height="234px" ImageUrl="~/pictures/singapore.jpeg" Width="352px" OnClick="ImageButton_Click" AlternateText="Singapore"/>
                     </td>
             </tr>
             <tr>
@@ -285,19 +285,19 @@
                     <br />
                     South Korea<br />
                     <br />
-                        <asp:ImageButton ID="southkoreaImg" runat="server" Height="234px" ImageUrl="~/pictures/south_korea.jpeg" Width="352px" />
+                        <asp:ImageButton ID="southkoreaImg" runat="server" Height="234px" ImageUrl="~/pictures/south_korea.jpeg" Width="352px" OnClick="ImageButton_Click" AlternateText="South Korea"/>
                     </td>
                 <td class="auto-style24" id="sweden">
                     <br />
                     Sweden<br />
                     <br />
-                        <asp:ImageButton ID="swedenImg" runat="server" Height="234px" ImageUrl="~/pictures/sweden.jpeg" Width="352px" />
+                        <asp:ImageButton ID="swedenImg" runat="server" Height="234px" ImageUrl="~/pictures/sweden.jpeg" Width="352px" OnClick="ImageButton_Click" AlternateText="Sweden"/>
                     </td>
                 <td class="auto-style21" id="taipei">
                     <br />
                     Taipei<br />
                     <br />
-                        <asp:ImageButton ID="taipeiImg" runat="server" Height="234px" ImageUrl="~/pictures/taipei.jpeg" Width="352px" />
+                        <asp:ImageButton ID="taipeiImg" runat="server" Height="234px" ImageUrl="~/pictures/taipei.jpeg" Width="352px" OnClick="ImageButton_Click" AlternateText="Taipei"/>
                     </td>
             </tr>
             <tr>
@@ -305,19 +305,19 @@
                     <br />
                     Thailand<br />
                     <br />
-                        <asp:ImageButton ID="thailandImg" runat="server" Height="234px" ImageUrl="~/pictures/thailand.jpeg" Width="352px" />
+                        <asp:ImageButton ID="thailandImg" runat="server" Height="234px" ImageUrl="~/pictures/thailand.jpeg" Width="352px" OnClick="ImageButton_Click" AlternateText="Thailand"/>
                     </td>
                 <td class="auto-style24" id="unitedKingdom">
                     <br />
                     United Kingdom<br />
                     <br />
-                        <asp:ImageButton ID="unitedkingdomImg" runat="server" Height="234px" ImageUrl="~/pictures/united_kingdom.jpeg" Width="352px" />
+                        <asp:ImageButton ID="unitedkingdomImg" runat="server" Height="234px" ImageUrl="~/pictures/united_kingdom.jpeg" Width="352px" OnClick="ImageButton_Click" AlternateText="United Kingdom"/>
                     </td>
                 <td class="auto-style21" id="washingtonDC">
                     <br />
                     Washington DC<br />
                     <br />
-                        <asp:ImageButton ID="washingtonImg" runat="server" Height="234px" ImageUrl="~/pictures/washington.jpeg" Width="352px" />
+                        <asp:ImageButton ID="washingtonImg" runat="server" Height="234px" ImageUrl="~/pictures/washington.jpeg" Width="352px" OnClick="ImageButton_Click" AlternateText="Washington DC"/>
                     </td>
             </tr>
         </table>
@@ -333,8 +333,8 @@
                     <td class="auto-style10" id="footerBlank">&nbsp;</td>
                     <td class="auto-style11" id="copyrightTextHolder">Copyright © 2021&nbsp;</td>
                     <td id="gitHubTextHolder" class="auto-style31">This website is made for a school project. You are welcome to check our open-source codes from the GitHub link below:<br />
+                        <asp:HyperLink ID="gitHubLink" runat="server" NavigateUrl="https://github.com/ipekozkuyumcu/MichelinStarRestaurants">https://github.com/ipekozkuyumcu/MichelinStarRestaurants</asp:HyperLink>
                         <br />
-                        <asp:LinkButton ID="gitHubLink" runat="server">https://github.com/ipekozkuyumcu/MichelinStarRestaurants</asp:LinkButton>
                     </td>
                 </tr>
             </table>

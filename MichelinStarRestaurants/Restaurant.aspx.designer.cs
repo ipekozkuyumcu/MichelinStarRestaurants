@@ -96,13 +96,13 @@ namespace MichelinStarRestaurants
         protected global::System.Web.UI.WebControls.TextBox awardedYearTextBox;
 
         /// <summary>
-        /// restaurantURL control.
+        /// restaurantUrl control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton restaurantURL;
+        protected global::System.Web.UI.WebControls.HyperLink restaurantUrl;
 
         /// <summary>
         /// gitHubLink control.
