@@ -231,7 +231,7 @@
                     <br />
                     Ireland<br />
                     <br />
-                        <asp:ImageButton ID="irelandImg" runat="server" Height="234px" ImageUrl="~/pictures/ireland.jpeg" Width="352px" OnClick="ImageButton_Click" AlternateText="Ireland"/>
+                        <asp:ImageButton ID="irelandImg" runat="server" Height="234px" ImageUrl="~/pictures/ıreland.jpeg" Width="352px" OnClick="ImageButton_Click" AlternateText="Ireland"/>
                     </td>
                 <td class="auto-style21" id="makau">
                     <br />
@@ -245,7 +245,7 @@
                     <br />
                     New York City<br />
                     <br />
-                        <asp:ImageButton ID="newyorkImg" runat="server" Height="234px" ImageUrl="~/pictures/newyork.jpeg" Width="352px" OnClick="ImageButton_Click" AlternateText="New York City"/>
+                        <asp:ImageButton ID="newyorkImg" runat="server" Height="234px" ImageUrl="~/pictures/new_york_city.jpeg" Width="352px" OnClick="ImageButton_Click" AlternateText="New York City"/>
                     </td>
                 <td class="auto-style23" id="norway">
                     <br />
@@ -265,7 +265,7 @@
                     <br />
                     Rio de Janeiro<br />
                     <br />
-                        <asp:ImageButton ID="riodejaneiroImg" runat="server" Height="234px" ImageUrl="~/pictures/rio_da_janeiro.jpeg" Width="352px" OnClick="ImageButton_Click" AlternateText="Rio de Janeiro"/>
+                        <asp:ImageButton ID="riodejaneiroImg" runat="server" Height="234px" ImageUrl="~/pictures/rio_de_janeiro.jpeg" Width="352px" OnClick="ImageButton_Click" AlternateText="Rio de Janeiro"/>
                     </td>
                 <td class="auto-style24" id="saoPaulo">
                     <br />
@@ -317,7 +317,7 @@
                     <br />
                     Washington DC<br />
                     <br />
-                        <asp:ImageButton ID="washingtonImg" runat="server" Height="234px" ImageUrl="~/pictures/washington.jpeg" Width="352px" OnClick="ImageButton_Click" AlternateText="Washington DC"/>
+                        <asp:ImageButton ID="washingtonImg" runat="server" Height="234px" ImageUrl="~/pictures/washington_dc.jpeg" Width="352px" OnClick="ImageButton_Click" AlternateText="Washington DC"/>
                     </td>
             </tr>
         </table>
