@@ -233,11 +233,11 @@
                     <br />
                         <asp:ImageButton ID="irelandImg" runat="server" Height="234px" ImageUrl="~/pictures/ıreland.jpeg" Width="352px" OnClick="ImageButton_Click" AlternateText="Ireland"/>
                     </td>
-                <td class="auto-style21" id="makau">
+                <td class="auto-style21" id="macau">
                     <br />
-                    Makau<br />
+                    Macau<br />
                     <br />
-                        <asp:ImageButton ID="makauImg" runat="server" Height="234px" ImageUrl="~/pictures/makau.jpeg" Width="352px" OnClick="ImageButton_Click" AlternateText="Makau"/>
+                        <asp:ImageButton ID="macauImg" runat="server" Height="234px" ImageUrl="~/pictures/macau.jpeg" Width="352px" OnClick="ImageButton_Click" AlternateText="Macau"/>
                     </td>
             </tr>
             <tr>

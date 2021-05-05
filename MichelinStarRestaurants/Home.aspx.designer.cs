@@ -168,13 +168,13 @@ namespace MichelinStarRestaurants
         protected global::System.Web.UI.WebControls.ImageButton irelandImg;
 
         /// <summary>
-        /// makauImg control.
+        /// macauImg control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton makauImg;
+        protected global::System.Web.UI.WebControls.ImageButton macauImg;
 
         /// <summary>
         /// newyorkImg control.
