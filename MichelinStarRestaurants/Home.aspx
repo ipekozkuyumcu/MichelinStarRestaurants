@@ -102,14 +102,13 @@
                         <asp:Image ID="logoImg" runat="server" Height="173px" ImageUrl="~/pictures/logo.png" Width="362px" />
                     </td>
                     <td class="auto-style5" id="homeMenu">
-                        <asp:Label ID="homeMenuLabel" runat="server" Text="Home"></asp:Label>
+                        <asp:LinkButton ID="homeMenuLButton" runat="server" OnClick="homeMenuLButton_Click">Home</asp:LinkButton>
                     </td>
                     <td class="auto-style4" id="searchMenu">
-                        <asp:Label ID="searchMenuLabel" runat="server" Text="Search Restaurant"></asp:Label>
-                        <br />
-                        (Sayfayı region resimlerinin olduğu yere kaydırır)</td>
+                        <asp:LinkButton ID="searchRestaurantLButton" runat="server" OnClick="searchRestaurantLButton_Click">Search Restaurant</asp:LinkButton>
+                    </td>
                     <td class="auto-style29" id="galleryMenu">
-                        <asp:Label ID="galleryMenuLabel" runat="server" Text="Gallery"></asp:Label>
+                        <asp:LinkButton ID="galleryMenuLButton" runat="server" OnClick="galleryMenuLButton_Click">Gallery</asp:LinkButton>
                     </td>
                 </tr>
             </table>

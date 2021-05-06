@@ -57,14 +57,13 @@
                         <asp:Image ID="logoImg" runat="server" Height="169px" ImageUrl="~/pictures/logo.png" Width="365px" />
                     </td>
                     <td class="auto-style26" id="homeMenu">
-                        <asp:Label ID="homeMenuLabel" runat="server" Text="Home"></asp:Label>
+                        <asp:LinkButton ID="homeMenuLButton" runat="server" OnClick="homeMenuLButton_Click">Home</asp:LinkButton>
                     </td>
                     <td class="auto-style28" id="searchMenu">
-                        <asp:Label ID="searchMenuLabel" runat="server" Text="Search Restaurant"></asp:Label>
-                        <br />
-                        (Region resimlerinin olduğu yere gider)</td>
+                        <asp:LinkButton ID="searchRestaurantLButton" runat="server" OnClick="searchRestaurantLButton_Click">Search Restaurant</asp:LinkButton>
+                    </td>
                     <td class="auto-style20" id="galleryMenu">
-                        <asp:Label ID="galleryMenuLabel" runat="server" Text="Gallery"></asp:Label>
+                        <asp:LinkButton ID="galleryMenuLButton" runat="server" OnClick="galleryMenuLButton_Click">Gallery</asp:LinkButton>
                     </td>
                 </tr>
             </table>
@@ -99,7 +98,7 @@
                             </tr>
                             <tr>
                                 <td class="auto-style20" id="searchButtonHolder">
-                                    <asp:Button ID="searchRestaurantButton" runat="server" Height="30px" Text="Search Restaurant" Width="163px" />
+                                    <asp:Button ID="searchRestaurantButton" runat="server" Height="30px" Text="Search Restaurant" Width="163px" OnClick="searchRestaurantButton_Click" />
 &nbsp;<br />
                                     (Restaurant sayfasına gider)</td>
                             </tr>

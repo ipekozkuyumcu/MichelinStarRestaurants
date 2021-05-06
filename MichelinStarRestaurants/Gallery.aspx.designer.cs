@@ -33,31 +33,31 @@ namespace MichelinStarRestaurants
         protected global::System.Web.UI.WebControls.Image logoImg;
 
         /// <summary>
-        /// homeMenuLabel control.
+        /// homeMenuLButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label homeMenuLabel;
+        protected global::System.Web.UI.WebControls.LinkButton homeMenuLButton;
 
         /// <summary>
-        /// searchMenuLabel control.
+        /// searchRestaurantLButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label searchMenuLabel;
+        protected global::System.Web.UI.WebControls.LinkButton searchRestaurantLButton;
 
         /// <summary>
-        /// galleryMenuLabel control.
+        /// galleryMenuLButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label galleryMenuLabel;
+        protected global::System.Web.UI.WebControls.LinkButton galleryMenuLButton;
 
         /// <summary>
         /// galleryImg1 control.

@@ -50,6 +50,19 @@ namespace MichelinStarRestaurants
             Response.Redirect("CitySelection.aspx?region=" + region);
         }
 
-        
+        protected void homeMenuLButton_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Home.aspx");
+        }
+
+        protected void searchRestaurantLButton_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Home.aspx#regionSelectionTable");
+        }
+
+        protected void galleryMenuLButton_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Gallery.aspx");
+        }
     }
 }
