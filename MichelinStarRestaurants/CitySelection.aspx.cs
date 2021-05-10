@@ -43,6 +43,7 @@ namespace MichelinStarRestaurants
                     cityList.DataSource = ds.Tables[0];
                     //cityList.DataTextField = "city"; // Text field which will be show in UI
                     cityList.DataBind();
+                    cityList_SelectedIndexChanged(sender, e);
                 }
             }
 
