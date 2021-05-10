@@ -94,8 +94,7 @@
                                     <asp:DropDownList ID="cityList" runat="server" Height="90px" Width="363px" DataTextField="city" AutoPostBack="True" DataValueField="city" AppendDataBoundItems="true" OnSelectedIndexChanged="cityList_SelectedIndexChanged">
                                     </asp:DropDownList>
                                     <br />
-                                    (Seçilen Region&#39;un şehirleri)<asp:Literal ID="Literal1" runat="server"></asp:Literal>
-                                </td>
+                                    (Seçilen Region&#39;un şehirleri)</td>
                             </tr>
                             <tr>
                                 <td class="auto-style19" id="ddRestaurantNameListHolder">
