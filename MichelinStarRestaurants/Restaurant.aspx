@@ -106,8 +106,7 @@
                         <asp:Literal ID="restaurantNameLtrl" runat="server"></asp:Literal>
                         <strong>
                         <br />
-                        </strong>(aynı şehirde birden fazla restoran da var o zaman napıcaz?)<br />
-                        (loop şeklinde bu tablodan yeterli sayıda üretip içini de öyle region ve citye göre datadan doldursak falan olur mu aksjdkaj saçma mı :D)</td>
+                        </strong></td>
                 </tr>
                 <tr>
                     <td class="auto-style33" id="infoTableBlank1">
