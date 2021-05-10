@@ -24,9 +24,6 @@
         .auto-style29 {
             text-align: center;
         }
-        .auto-style30 {
-            font-size: large;
-        }
         .auto-style33 {
             width: 485px;
             text-align: center;
@@ -106,8 +103,8 @@
                         <asp:Image ID="regionImg" runat="server" Height="232px" ImageUrl="~/koala.png" Width="355px" />
                     </td>
                     <td id="restaurantNameTextHolder" class="auto-style36">
+                        <asp:Literal ID="restaurantNameLtrl" runat="server"></asp:Literal>
                         <strong>
-                        <asp:Label ID="restaurantNameLabel" runat="server" CssClass="auto-style30" Text="Restaurant Name"></asp:Label>
                         <br />
                         </strong>(aynı şehirde birden fazla restoran da var o zaman napıcaz?)<br />
                         (loop şeklinde bu tablodan yeterli sayıda üretip içini de öyle region ve citye göre datadan doldursak falan olur mu aksjdkaj saçma mı :D)</td>
@@ -121,26 +118,27 @@
                 <tr>
                     <td class="auto-style41" id="labelHolder1">Style of cuisine:</td>
                     <td id="textBoxHolder1" class="auto-style42">
-                        <asp:TextBox ID="cuisineTextBox" runat="server" Height="25px" Width="192px"></asp:TextBox>
+                        <asp:TextBox ID="cuisineTextBox" runat="server" Height="25px" Width="192px" ReadOnly="True"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
                     <td class="auto-style41" id="labelHolder2">Awarded year:</td>
                     <td id="textBoxHolder2" class="auto-style42">
-                        <asp:TextBox ID="awardedYearTextBox" runat="server" Height="25px" Width="192px"></asp:TextBox>
+                        <asp:TextBox ID="awardedYearTextBox" runat="server" Height="25px" Width="192px" ReadOnly="True"></asp:TextBox>
                     </td>
                 </tr>
                 
                 <tr>
                     <td class="auto-style41" id="labelHolder3">Star type:</td>
                     <td id="textBoxHolder3" class="auto-style42">
-                        &nbsp;</td>
+                        <asp:TextBox ID="starTypeTextBox" runat="server" Height="25px" Width="192px" ReadOnly="True"></asp:TextBox>
+                    </td>
                 </tr>
                 <tr>
                     <td class="auto-style41" id="labelHolder4">URL of restaurant site:</td>
                     <td id="textBoxHolder4" class="auto-style42">
-                        <asp:HyperLink ID="restaurantUrl" runat="server">HyperLink</asp:HyperLink>
                         <br />
+                        <asp:HyperLink ID="restaurantUrlLink" runat="server">HyperLink</asp:HyperLink>
                         <br />
                         You can find restaurant&#39;s location using the URL above.</td>
                 </tr>

@@ -52,7 +52,8 @@ namespace MichelinStarRestaurants
         protected void searchRestaurantButton_Click(object sender, EventArgs e)
         {
             string region = regionImg.AlternateText;
-            Response.Redirect("Restaurant.aspx?region=" + region);
+            string restaurantName = restaurantNameList.SelectedValue.ToString();
+            Response.Redirect("Restaurant.aspx?region=" + region + "&rname=" + restaurantName);
         }
 
         protected void homeMenuLButton_Click(object sender, EventArgs e)
@@ -89,6 +90,7 @@ namespace MichelinStarRestaurants
                     {
                         restaurantNameList.Items.Add(dt.Rows[i]["name"].ToString());
                     }
+                con.Close();
 
                 }
                 catch (Exception ex)

@@ -78,13 +78,13 @@ namespace MichelinStarRestaurants
         protected global::System.Web.UI.WebControls.Image regionImg;
 
         /// <summary>
-        /// restaurantNameLabel control.
+        /// restaurantNameLtrl control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label restaurantNameLabel;
+        protected global::System.Web.UI.WebControls.Literal restaurantNameLtrl;
 
         /// <summary>
         /// cuisineTextBox control.
@@ -105,13 +105,22 @@ namespace MichelinStarRestaurants
         protected global::System.Web.UI.WebControls.TextBox awardedYearTextBox;
 
         /// <summary>
-        /// restaurantUrl control.
+        /// starTypeTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink restaurantUrl;
+        protected global::System.Web.UI.WebControls.TextBox starTypeTextBox;
+
+        /// <summary>
+        /// restaurantUrlLink control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.HyperLink restaurantUrlLink;
 
         /// <summary>
         /// gitHubLink control.
