@@ -11,6 +11,12 @@ namespace MichelinStarRestaurants
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            string region = Request.QueryString["region"];
+            string changedText = region.Trim().Replace(" ", "_");
+            changedText = changedText.ToLower();
+            string imgUrl = "pictures/" + changedText + ".jpeg";
+            regionImg.ImageUrl = imgUrl;
+            regionLtrl.Text = region;
 
         }
 

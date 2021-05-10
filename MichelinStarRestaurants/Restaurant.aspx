@@ -99,7 +99,10 @@
         <div>
             <table class="auto-style16" id="restaurantInfoTable">
                 <tr>
-                    <td class="auto-style35" id="regionImgHolder">(Region&#39;s picture - home sayfasında seçilen) (Ne seçilirse ona göre)<br />
+                    <td class="auto-style35" id="regionImgHolder">
+                        <br />
+                        <asp:Literal ID="regionLtrl" runat="server"></asp:Literal>
+                        <br />
                         <asp:Image ID="regionImg" runat="server" Height="232px" ImageUrl="~/koala.png" Width="355px" />
                     </td>
                     <td id="restaurantNameTextHolder" class="auto-style36">

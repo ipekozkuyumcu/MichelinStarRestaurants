@@ -91,10 +91,18 @@
                         <table class="auto-style18" id="citySelectionInnerTable">
                             <tr>
                                 <td class="auto-style19" id="ddCityListHolder">
-                                    <asp:DropDownList ID="cityList" runat="server" Height="90px" Width="363px">
+                                    <asp:DropDownList ID="cityList" runat="server" Height="90px" Width="363px" DataTextField="city" AutoPostBack="True" DataValueField="city" AppendDataBoundItems="true" OnSelectedIndexChanged="cityList_SelectedIndexChanged">
                                     </asp:DropDownList>
                                     <br />
-                                    (Seçilen Region&#39;un şehirleri)</td>
+                                    (Seçilen Region&#39;un şehirleri)<asp:Literal ID="Literal1" runat="server"></asp:Literal>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="auto-style19" id="ddRestaurantNameListHolder">
+                                    <asp:DropDownList ID="restaurantNameList" runat="server" Height="90px" Width="363px" DataTextField="name" AutoPostBack="True" DataValueField="name" AppendDataBoundItems="true">
+                                    </asp:DropDownList>
+                                    <br />
+                                    (Seçilen şehirdeki restoranların isimleri)</td>
                             </tr>
                             <tr>
                                 <td class="auto-style20" id="searchButtonHolder">
