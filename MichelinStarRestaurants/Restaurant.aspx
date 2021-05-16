@@ -18,7 +18,7 @@
         }
         .auto-style27 {
             width: 178px;
-            text-align: right;
+            text-align: center;
             height: 172px;
         }
         .auto-style30 {
@@ -58,7 +58,7 @@
         }
         .auto-style49 {
             width: 213px;
-            text-align: center;
+            text-align: left;
             height: 172px;
         }
         .auto-style50 {

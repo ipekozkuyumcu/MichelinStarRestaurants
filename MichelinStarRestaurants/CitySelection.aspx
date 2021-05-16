@@ -13,18 +13,18 @@
         }
         .auto-style17 {
             width: 485px;
-            text-align: center;
+            text-align: right;
         }
         .auto-style18 {
             width: 100%;
             height: 289px;
         }
         .auto-style20 {
-            text-align: center;
+            text-align: right;
         }
         .auto-style26 {
             width: 178px;
-            text-align: right;
+            text-align: center;
         }
          .auto-style25 {
             width: 75%;
@@ -37,7 +37,7 @@
         }
         .auto-style28 {
             width: 213px;
-            text-align: center;
+            text-align: left;
         }
         .auto-style30 {
              width: 107%;
@@ -59,11 +59,11 @@
             height: 102px;
         }
         .auto-style36 {
-            text-align: left;
+            text-align: center;
             height: 54px;
         }
         .auto-style37 {
-            text-align: left;
+            text-align: center;
             height: 57px;
         }
     </style>
@@ -99,9 +99,14 @@
             <table class="auto-style25" id="citySelectionTable">
                 <tr>
                     <td class="auto-style17" id="regionImgHolder">
+                        &nbsp;Selected Region:
                         <asp:Literal ID="regionLtrl" runat="server"></asp:Literal>
                         <br />
+&nbsp;&nbsp;&nbsp;&nbsp;
+                        <br />
+                        <br />
                         <asp:Image ID="regionImg" runat="server" Height="232px" ImageUrl="~/pictures/austria.jpeg" Width="355px" />
+                    &nbsp;&nbsp;&nbsp;&nbsp;
                     </td>
                     <td>
                         <table class="auto-style18" id="citySelectionInnerTable">

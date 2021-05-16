@@ -85,7 +85,7 @@
         }
         .auto-style37 {
             width: 54px;
-            text-align: left;
+            text-align: center;
             height: 94px;
         }
         .auto-style38 {
