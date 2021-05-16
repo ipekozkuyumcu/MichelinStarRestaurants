@@ -60,9 +60,5 @@ namespace MichelinStarRestaurants
             Response.Redirect("Home.aspx#regionSelectionTable");
         }
 
-        protected void galleryMenuLButton_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("Gallery.aspx");
-        }
     }
 }

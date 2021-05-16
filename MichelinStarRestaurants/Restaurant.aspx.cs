@@ -15,11 +15,10 @@ namespace MichelinStarRestaurants
         {
             string region = Request.QueryString["region"];
             string rname = Request.QueryString["rname"];
-            //string cuisine = Request.QueryString["cuisine"];
-            string changedText = region.Trim().Replace(" ", "_");
+            string changedText = rname.Trim().Replace(" ", "_");
             changedText = changedText.ToLower();
-            string imgUrl = "pictures/" + changedText + ".jpeg";
-            regionImg.ImageUrl = imgUrl;
+            string imgUrl = "pictures/restaurants/" + changedText + ".jpg";
+            restaurantImg.ImageUrl = imgUrl;
             regionLtrl.Text = region;
 
             if (!IsPostBack)
@@ -59,9 +58,5 @@ namespace MichelinStarRestaurants
             Response.Redirect("Home.aspx#regionSelectionTable");
         }
 
-        protected void galleryMenuLButton_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("Gallery.aspx");
-        }
     }
 }

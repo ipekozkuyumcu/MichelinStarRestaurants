@@ -6,23 +6,24 @@
 <head runat="server">
         <title></title>
     <style type="text/css">
-        .auto-style16 {
-            width: 100%;
+         .auto-style16 {
+            width: 75%;
+            height: 501px;
+            margin-left: 192px;
         }
         .auto-style26 {
-            width: 694px;
-            text-align: center;
+            width: 817px;
+            text-align: left;
+            height: 172px;
         }
         .auto-style27 {
             width: 178px;
-            text-align: center;
+            text-align: right;
+            height: 172px;
         }
-        .auto-style28 {
-            width: 253px;
-            text-align: center;
-        }
-        .auto-style29 {
-            text-align: center;
+        .auto-style30 {
+            width: 107%;
+            height: 71px;
         }
         .auto-style33 {
             width: 485px;
@@ -35,39 +36,46 @@
         }
         .auto-style35 {
             width: 485px;
-            text-align: center;
+            text-align: right;
             height: 255px;
         }
         .auto-style36 {
-            text-align: center;
+            text-align: left;
             height: 255px;
         }
-        .auto-style41 {
-            width: 485px;
-            text-align: center;
-            height: 50px;
-        }
-        .auto-style42 {
-            text-align: center;
-            height: 50px;
-        }
         .auto-style43 {
-            width: 404px;
+            width: 400px;
             text-align: center;
-        }
-        .auto-style46 {
-            width: 429px;
         }
         .auto-style47 {
-            width: 419px;
+            width: 965px;
             text-align: center;
+        }
+        .auto-style48 {
+            width: 103%;
+            height: 96px;
+            margin-left: 60px;
+        }
+        .auto-style49 {
+            width: 213px;
+            text-align: center;
+            height: 172px;
+        }
+        .auto-style50 {
+            width: 485px;
+            text-align: right;
+            height: 50px;
+        }
+        .auto-style51 {
+            text-align: left;
+            height: 50px;
         }
     </style>
 </head>
 <body>
     <form id="form1" runat="server">
         <div>
-            <table class="auto-style16" id="header">
+            <table class="auto-style48" id="header">
                 <tr>
                     <td class="auto-style26" id="logoImgHolder">
                         <asp:Image ID="logoImg" runat="server" Height="168px" ImageUrl="~/pictures/logo.png" Width="364px" />
@@ -75,17 +83,15 @@
                     <td class="auto-style27" id="homeMenu">
                         <asp:LinkButton ID="homeMenuLButton" runat="server" OnClick="homeMenuLButton_Click">Home</asp:LinkButton>
                     </td>
-                    <td class="auto-style28" id="searchMenu">
+                    <td class="auto-style49" id="searchMenu">
                         <asp:LinkButton ID="searchRestaurantLButton" runat="server" OnClick="searchRestaurantLButton_Click">Search Restaurant</asp:LinkButton>
-                    </td>
-                    <td class="auto-style29" id="galleryMenu">
-                        <asp:LinkButton ID="galleryMenuLButton" runat="server" OnClick="galleryMenuLButton_Click">Gallery</asp:LinkButton>
                     </td>
                 </tr>
             </table>
         </div>
         <div id="blank1">
 
+            <br />
             <br />
             <br />
             <br />
@@ -98,11 +104,18 @@
                 <tr>
                     <td class="auto-style35" id="regionImgHolder">
                         <br />
-                        <asp:Literal ID="regionLtrl" runat="server"></asp:Literal>
+                        Region of restaurant:&nbsp; <asp:Literal ID="regionLtrl" runat="server"></asp:Literal>
+                        &nbsp;&nbsp;&nbsp;&nbsp;
                         <br />
-                        <asp:Image ID="regionImg" runat="server" Height="232px" ImageUrl="~/koala.png" Width="355px" />
+                        <br />
+                        <asp:Image ID="restaurantImg" runat="server" Height="232px" ImageUrl="~/koala.png" Width="355px" />
+                    &nbsp;&nbsp;&nbsp;&nbsp;
                     </td>
                     <td id="restaurantNameTextHolder" class="auto-style36">
+                        Name of the restaurant:
+                        <br />
+                        <br />
+                        <br />
                         <asp:Literal ID="restaurantNameLtrl" runat="server"></asp:Literal>
                         <strong>
                         <br />
@@ -115,34 +128,35 @@
                     </td>
                 </tr>
                 <tr>
-                    <td class="auto-style41" id="labelHolder1">Style of cuisine:</td>
-                    <td id="textBoxHolder1" class="auto-style42">
+                    <td class="auto-style50" id="labelHolder1">Style of cuisine:&nbsp;&nbsp;&nbsp;&nbsp;   <td id="textBoxHolder1" class="auto-style51">
                         <asp:TextBox ID="cuisineTextBox" runat="server" Height="25px" Width="192px" ReadOnly="True"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
-                    <td class="auto-style41" id="labelHolder2">Awarded year:</td>
-                    <td id="textBoxHolder2" class="auto-style42">
+                    <td class="auto-style50" id="labelHolder2">Awarded year:&nbsp;&nbsp;&nbsp;&nbsp; </td>
+                    <td id="textBoxHolder2" class="auto-style51">
                         <asp:TextBox ID="awardedYearTextBox" runat="server" Height="25px" Width="192px" ReadOnly="True"></asp:TextBox>
                     </td>
                 </tr>
                 
                 <tr>
-                    <td class="auto-style41" id="labelHolder3">Star type:</td>
-                    <td id="textBoxHolder3" class="auto-style42">
+                    <td class="auto-style50" id="labelHolder3">Star type:&nbsp;&nbsp;&nbsp;&nbsp; </td>
+                    <td id="textBoxHolder3" class="auto-style51">
                         <asp:TextBox ID="starTypeTextBox" runat="server" Height="25px" Width="192px" ReadOnly="True"></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
-                    <td class="auto-style41" id="labelHolder4">URL of restaurant site:</td>
-                    <td id="textBoxHolder4" class="auto-style42">
+                    <td class="auto-style50" id="labelHolder4">URL of restaurant site:&nbsp;&nbsp;&nbsp;&nbsp; </td>
+                    <td id="textBoxHolder4" class="auto-style51">
                         <br />
                         <asp:HyperLink ID="restaurantUrlLink" runat="server">HyperLink</asp:HyperLink>
                         <br />
-                        You can find restaurant&#39;s location using the URL above.</td>
+                        <em>(sYou can find restaurant&#39;s location using the URL above.)</em></td>
                 </tr>
             </table>
               <br />
+            <br />
+            <br />
             <br />
             <br />
             <br />
@@ -152,13 +166,16 @@
             <br />
         </div>
         <div>
-            <table id="footer">
+            <table class="auto-style30" id="footer">
                 <tr>
-                    <td class="auto-style46" id="footerBlank">&nbsp;</td>
                     <td class="auto-style43" id="copyrightTextHolder">Copyright © 2021&nbsp;</td>
                     <td id="gitHubTextHolder" class="auto-style47">This website is made for a school project. You are welcome to check our open-source codes from the GitHub link below:<br />
-                        <br />
                         <asp:LinkButton ID="gitHubLink" runat="server">https://github.com/ipekozkuyumcu/MichelinStarRestaurants</asp:LinkButton>
+                        <br />
+                        <br />
+                        Contributors&#39; GitHub pages:<br />
+                        <a href="https://github.com/OrkunCoskun">https://github.com/OrkunCoskun</a><br />
+                        <a href="https://github.com/elfpamuk">https://github.com/elfpamuk</a>
                     </td>
                 </tr>
             </table>

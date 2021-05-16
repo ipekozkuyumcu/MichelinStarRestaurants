@@ -51,15 +51,6 @@ namespace MichelinStarRestaurants
         protected global::System.Web.UI.WebControls.LinkButton searchRestaurantLButton;
 
         /// <summary>
-        /// galleryMenuLButton control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton galleryMenuLButton;
-
-        /// <summary>
         /// regionLtrl control.
         /// </summary>
         /// <remarks>
@@ -69,13 +60,13 @@ namespace MichelinStarRestaurants
         protected global::System.Web.UI.WebControls.Literal regionLtrl;
 
         /// <summary>
-        /// regionImg control.
+        /// restaurantImg control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image regionImg;
+        protected global::System.Web.UI.WebControls.Image restaurantImg;
 
         /// <summary>
         /// restaurantNameLtrl control.

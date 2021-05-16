@@ -7,32 +7,18 @@
     <title></title>
     <style type="text/css">
         .auto-style1 {
-            width: 100%;
+            width: 86%;
+            height: 2363px;
+            margin-left: 66px;
+            margin-right: 0px;
         }
         .auto-style2 {
-            width: 695px;
+            width: 119px;
             height: 94px;
-            text-align: center;
-        }
-        .auto-style4 {
-            width: 253px;
-            text-align: center;
-            height: 94px;
-        }
-        .auto-style5 {
-            width: 178px;
-            text-align: center;
-            height: 94px;
+            text-align: left;
         }
         .auto-style6 {
             width: 529px;
-            text-align: center;
-        }
-        .auto-style10 {
-            width: 429px;
-        }
-        .auto-style11 {
-            width: 404px;
             text-align: center;
         }
         .auto-style12 {
@@ -41,8 +27,9 @@
             text-align: center;
         }
         .auto-style16 {
-            width: 100%;
+            width: 103%;
             height: 96px;
+            margin-left: 60px;
         }
         .auto-style17 {
             width: 481px;
@@ -67,22 +54,22 @@
             text-align: center;
         }
         .auto-style25 {
-            width: 100%;
+            width: 75%;
             height: 501px;
+            margin-left: 97px;
         }
         .auto-style26 {
             text-align: center;
             height: 149px;
+            width: 1537px;
+            margin-left: 95px;
         }
         .auto-style28 {
             height: 64px;
-        }
-        .auto-style29 {
-            text-align: center;
-            height: 94px;
+            width: 1534px;
         }
         .auto-style30 {
-            width: 100%;
+            width: 107%;
             height: 71px;
         }
         .auto-style31 {
@@ -91,7 +78,32 @@
         .auto-style32 {
             font-size: large;
         }
+        .auto-style36 {
+            width: 132px;
+            text-align: left;
+            height: 94px;
+        }
+        .auto-style37 {
+            width: 54px;
+            text-align: left;
+            height: 94px;
+        }
+        .auto-style38 {
+            width: 1619px;
+            margin-left: 0px;
+        }
+        .auto-style39 {
+            width: 1323px;
+            margin-left: 63px;
+        }
+        .auto-style40 {
+            width: 452px;
+            text-align: center;
+        }
     </style>
+    <link href="StyleSheet1.css" rel="stylesheet" type="text/css" />
+    <link href="StyleSheet1.css" rel="stylesheet" type="text/css" />
+    <link href="StyleSheet1.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <form id="form1" runat="server">
@@ -99,16 +111,13 @@
             <table class="auto-style16" id="header">
                 <tr>
                     <td class="auto-style2" id="logoImgHolder">
-                        <asp:Image ID="logoImg" runat="server" Height="173px" ImageUrl="~/pictures/logo.png" Width="362px" />
+                        <asp:Image ID="logoImg" runat="server" Height="173px" ImageUrl="~/pictures/logo.png" Width="362px"/>
                     </td>
-                    <td class="auto-style5" id="homeMenu">
+                    <td class="auto-style37" id="homeMenu">
                         <asp:LinkButton ID="homeMenuLButton" runat="server" OnClick="homeMenuLButton_Click">Home</asp:LinkButton>
                     </td>
-                    <td class="auto-style4" id="searchMenu">
+                    <td class="auto-style36" id="searchMenu">
                         <asp:LinkButton ID="searchRestaurantLButton" runat="server" OnClick="searchRestaurantLButton_Click">Search Restaurant</asp:LinkButton>
-                    </td>
-                    <td class="auto-style29" id="galleryMenu">
-                        <asp:LinkButton ID="galleryMenuLButton" runat="server" OnClick="galleryMenuLButton_Click">Gallery</asp:LinkButton>
                     </td>
                 </tr>
             </table>
@@ -119,8 +128,9 @@
             <br />
         </div>
         <div class="auto-style26" id="homeTitleTable">
-            <h1 id="homeTitle">FIND MICHELIN STAR RESTAURANTS</h1>
+            <h1 id="homeTitle" class="auto-style28">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FIND MICHELIN STAR RESTAURANTS</h1>
             <h2 id="welcomeTitle" class="auto-style28"><br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 Welcome!<br />
             <br />
             <br />
@@ -145,7 +155,7 @@
                 </tr>
             </table>
         </div>
-        <div id="blank2">
+        <div id="blank2" class="auto-style38">
             <br />
             <br />
             <br />
@@ -154,7 +164,7 @@
             <br class="auto-style32" />
             </strong>
         </div>
-        <div id="selectRegionTextHolder"><strong><span class="auto-style32">Select the region that you want to search a restaurant at:</span></strong><br />
+        <div id="selectRegionTextHolder" class="auto-style39"><strong><span class="auto-style32">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Select the region that you want to search a restaurant at:</span></strong><br />
             <br />
             <br />
         </div>
@@ -329,11 +339,14 @@
         <div>
             <table class="auto-style30" id="footer">
                 <tr>
-                    <td class="auto-style10" id="footerBlank">&nbsp;</td>
-                    <td class="auto-style11" id="copyrightTextHolder">Copyright © 2021&nbsp;</td>
+                    <td class="auto-style40" id="copyrightTextHolder">Copyright © 2021&nbsp;</td>
                     <td id="gitHubTextHolder" class="auto-style31">This website is made for a school project. You are welcome to check our open-source codes from the GitHub link below:<br />
                         <asp:HyperLink ID="gitHubLink" runat="server" NavigateUrl="https://github.com/ipekozkuyumcu/MichelinStarRestaurants">https://github.com/ipekozkuyumcu/MichelinStarRestaurants</asp:HyperLink>
                         <br />
+                        <br />
+                        Contributors&#39; GitHub pages:<br />
+                        <a href="https://github.com/OrkunCoskun">https://github.com/OrkunCoskun</a><br />
+                        <a href="https://github.com/elfpamuk">https://github.com/elfpamuk</a>
                     </td>
                 </tr>
             </table>
