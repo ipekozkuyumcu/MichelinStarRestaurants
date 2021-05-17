@@ -97,7 +97,7 @@
             text-align: center;
         }
         .menuStyle {
-            font-family: Lemon;
+            font-family: "Lemon";
             font-size: 18px;
             font-style: normal;
             color: #5B3889;
@@ -111,7 +111,7 @@
             width: 1534px;
         }
         .welcomeTitleStyle {
-            font-family: Lemon;
+            font-family: "Lemon";
             font-size: 18px;
             font-style: normal;
             color: #5B3889;
@@ -126,7 +126,7 @@
             font-size: 18px;
         }
         .auto-style41 {
-            font-family: Lemon;
+            font-family: "Lemon";
             font-size: 20px;
             color: #5B3889;
             font-weight: normal;
@@ -140,7 +140,7 @@
             color: #000000;
         }
         .regionTextStyle {
-            font-family: lemon;
+            font-family: "Lemon";
             font-size: 15px;
             color: #5B3889;
         }
