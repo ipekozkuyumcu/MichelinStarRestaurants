@@ -4,16 +4,17 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
+    <link rel="stylesheet" href="HomeStyle.css"/>
     <title></title>
     <style type="text/css">
         .auto-style1 {
             width: 86%;
             height: 2363px;
-            margin-left: 66px;
+            margin-left: 102px;
             margin-right: 0px;
         }
         .auto-style2 {
-            width: 119px;
+            width: 16px;
             height: 94px;
             text-align: left;
         }
@@ -25,11 +26,6 @@
             width: 481px;
             height: 257px;
             text-align: center;
-        }
-        .auto-style16 {
-            width: 103%;
-            height: 96px;
-            margin-left: 60px;
         }
         .auto-style17 {
             width: 481px;
@@ -56,17 +52,13 @@
         .auto-style25 {
             width: 82%;
             height: 501px;
-            margin-left: 165px;
+            margin-left: 131px;
         }
         .auto-style26 {
             text-align: center;
-            height: 149px;
+            height: 239px;
             width: 1537px;
-            margin-left: 126px;
-        }
-        .auto-style30 {
-            width: 107%;
-            height: 71px;
+            margin-left: 95px;
         }
         .auto-style31 {
             text-align: center;
@@ -85,20 +77,16 @@
             height: 94px;
         }
         .auto-style38 {
-            width: 1619px;
+            width: 1628px;
             margin-left: 0px;
         }
         .auto-style39 {
-            width: 1323px;
-            margin-left: 63px;
-        }
-        .auto-style40 {
-            width: 452px;
-            text-align: center;
+            width: 1490px;
+            margin-left: 138px;
         }
         .menuStyle {
-            font-family: Lemon;
-            font-size: 18px;
+            font-family: "berlin Sans FB";
+            font-size: 25px;
             font-style: normal;
             color: #5B3889;
             text-decoration: none;
@@ -111,8 +99,8 @@
             width: 1534px;
         }
         .welcomeTitleStyle {
-            font-family: Lemon;
-            font-size: 18px;
+            font-family: "berlin Sans FB";
+            font-size: 25px;
             font-style: normal;
             color: #5B3889;
             text-decoration: none;
@@ -126,8 +114,8 @@
             font-size: 18px;
         }
         .auto-style41 {
-            font-family: Lemon;
-            font-size: 20px;
+            font-family: "berlin Sans FB";
+            font-size: 30px;
             color: #5B3889;
             font-weight: normal;
         }
@@ -140,13 +128,50 @@
             color: #000000;
         }
         .regionTextStyle {
-            font-family: Lemon;
-            font-size: 15px;
+            font-family: "berlin Sans FB";
+            font-size: 20px;
             color: #5B3889;
         }
         .footerStyle {
             font-family: "Berlin Sans";
             font-size: 15px;
+        }
+        .auto-style43 {
+            font-family: "berlin Sans FB";
+            font-size: 25px;
+            font-style: normal;
+            color: #5B3889;
+            text-decoration: none;
+            height: 65px;
+        }
+        .headerBorder {
+            border-bottom-style: double;
+            border-bottom-color: #5B3889;
+            width: 103%;
+            height: 96px;
+            margin-left: 60px;
+        }
+        .auto-style44 {
+            border-bottom-style: double;
+            border-bottom-color: #5B3889;
+            width: 118%;
+            height: 96px;
+            margin-left: 0px;
+        }
+        .footerStyle {
+            font-family: "Berlin Sans";
+            font-size: 15px;
+            width: 118%;
+            height: 71px;
+            border-left-color: #5B3889;
+            border-right-color: #5B3889;
+            border-top-style: double;
+            border-top-color: #5B3889;
+            border-bottom-color: #5B3889;
+        }
+        .auto-style46 {
+            width: 582px;
+            text-align: center;
         }
     
     </style>
@@ -155,7 +180,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <table class="auto-style16" id="header">
+            <table class="auto-style44" id="header">
                 <tr>
                     <td class="auto-style2" id="logoImgHolder">
                         <asp:Image ID="logoImg" runat="server" Height="173px" ImageUrl="~/pictures/logo.png" Width="362px" />
@@ -170,15 +195,11 @@
                     </td>
                 </tr>
             </table>
-        </div>
-        <div id="blank1">
-            <br />
-            <br />
             <br />
         </div>
         <div class="auto-style26" id="homeTitleTable">
             <h1 id="homeTitle" class="titleStyle">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<span class="titleStyle"> <span class="auto-style42">FIND MICHELIN STAR RESTAURANTS</span></span></h1>
-            <h2 id="welcomeTitle" class="welcomeTitleStyle"><br />
+            <h2 id="welcomeTitle" class="auto-style43"><br />
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
                 <span class="auto-style41">Welcome!</span><br />
             <br />
@@ -213,7 +234,7 @@
             <br class="auto-style32" />
             </strong>
         </div>
-        <div id="selectRegionTextHolder" class="auto-style39"><strong><span class="auto-style32">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></strong><span class="explanationStyle">Select the region that you want to search a restaurant at:</span><br />
+        <div id="selectRegionTextHolder" class="auto-style39"><span class="explanationStyle">Select the region that you want to search a restaurant at:</span><br />
             <br />
             <br />
         </div>
@@ -261,7 +282,7 @@
             <tr>
                 <td class="auto-style17" id="finland">
                     <br />
-                     <span class="regionTextStyle">Finland</span><br />>
+                     <span class="regionTextStyle">Finland</span><br />
                     <br />
                         <asp:ImageButton ID="finlandImg" runat="server" Height="234px" ImageUrl="~/pictures/finland.jpeg" Width="352px" CssClass="pictureBorder" OnClick="ImageButton_Click" AlternateText="Finland"/>
                     </td>
@@ -387,16 +408,18 @@
             <br />
         </div>
         <div>
-            <table class="auto-style30" id="footer">
+            <table class="footerStyle" id="footer">
                 <tr>
-                    <td id="copyrightTextHolder" class="auto-style40"><span class="footerStyle">Copyright © 2021&nbsp;</span></td>
-                    <td id="gitHubTextHolder" class="auto-style31"><span class="footerStyle"> This website is made for a school project. You are welcome to check our open-source codes from the GitHub link below:<br />
+                    <td id="copyrightTextHolder" class="auto-style46">Copyright © 2021&nbsp;</td>
+                    <td id="gitHubTextHolder" class="auto-style31">
+                        <br />
+                        This website is made for a school project. You are welcome to check our open-source codes from the GitHub link below:<br />
                         <asp:HyperLink ID="gitHubLink" runat="server" NavigateUrl="https://github.com/ipekozkuyumcu/MichelinStarRestaurants">https://github.com/ipekozkuyumcu/MichelinStarRestaurants</asp:HyperLink>
                         <br />
                         <br />
                         Contributors&#39; GitHub pages:<br />
                         <a href="https://github.com/OrkunCoskun">https://github.com/OrkunCoskun</a><br />
-                        <a href="https://github.com/elfpamuk">https://github.com/elfpamuk</a></span>
+                        <a href="https://github.com/elfpamuk">https://github.com/elfpamuk</a>
                     </td>
                 </tr>
             </table>

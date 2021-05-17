@@ -67,6 +67,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CitySelectionStyle.css" />
+    <Content Include="HomeStyle.css" />
     <Content Include="CitySelection.aspx" />
     <Content Include="Home.aspx" />
     <Content Include="koala.png" />
@@ -91,8 +93,8 @@
     <Content Include="pictures\hong_kong.png" />
     <Content Include="pictures\hungary.jpeg" />
     <Content Include="pictures\hungary.png" />
+    <Content Include="pictures\restaurants\Ikarus.jpg" />
     <Content Include="pictures\ıreland.jpeg" />
-    <Content Include="pictures\restaurants\ikarus.jpg" />
     <Content Include="pictures\restaurants\mori_sushi.jpg" />
     <Content Include="pictures\ıreland.png" />
     <Content Include="pictures\logo.png" />
@@ -124,6 +126,7 @@
     <Content Include="pictures\washington_dc.png" />
     <Content Include="Restaurant.aspx" />
     <Content Include="restaurants.mdb" />
+    <Content Include="RestaurantStyle.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

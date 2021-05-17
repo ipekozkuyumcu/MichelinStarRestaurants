@@ -4,12 +4,13 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
+    <link rel="stylesheet" href="RestaurantStyle.css"/>
         <title></title>
     <style type="text/css">
          .auto-style16 {
-             width: 90%;
+             width: 84%;
             height: 501px;
-            margin-left: 239px;
+            margin-left: 277px;
         }
         .auto-style26 {
             width: 817px;
@@ -20,15 +21,6 @@
             width: 178px;
             text-align: center;
             height: 172px;
-        }
-        .auto-style30 {
-            width: 107%;
-            height: 71px;
-        }
-        .auto-style35 {
-            width: 558px;
-            text-align: center;
-            height: 255px;
         }
         .auto-style36 {
             text-align: left;
@@ -42,10 +34,12 @@
             width: 965px;
             text-align: center;
         }
-        .auto-style48 {
-            width: 103%;
+        .headerBorder{
+            border-bottom-style: double;
+            border-bottom-color: #5B3889;
+            width: 107%;
             height: 96px;
-            margin-left: 60px;
+            margin-left: 0px;
         }
         .auto-style49 {
             width: 213px;
@@ -59,12 +53,53 @@
         .auto-style54 {
             height: 50px;
         }
-        .auto-style55 {
-            height: 50px;
-            width: 253px;
-        }
         .auto-style56 {
             width: 253px;
+            text-align: right;
+        }
+        .menuStyle {
+            font-family: "berlin Sans FB";
+            font-size: 25px;
+            font-style: normal;
+            color: #5B3889;
+            text-decoration: none;
+        }
+        .auto-style58 {
+            height: 50px;
+            width: 253px;
+            text-align: right;
+        }
+        .pictureBorder {
+            border: thick double;
+            border-color: #5B3889;
+        }
+        .regionTextStyle {
+            font-family: "berlin Sans FB";
+            font-size: 20px;
+            color: #5B3889;
+        }
+        .textStyle {
+            font-family: "Berlin Sans";
+            font-size: 20px;
+            width: 558px;
+            text-align: center;
+            height: 255px;
+        }
+        .explanationStyle {
+            font-family: "berlin Sans FB";
+            font-size: 20px;
+            color: #000000;
+        }
+        .footerStyle {
+            font-family: "Berlin Sans";
+            font-size: 15px;
+            width: 118%;
+            height: 71px;
+            border-left-color: #5B3889;
+            border-right-color: #5B3889;
+            border-top-style: double;
+            border-top-color: #5B3889;
+            border-bottom-color: #5B3889;
         }
       
     </style>
@@ -72,16 +107,16 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <table class="auto-style48" id="header">
+            <table class="headerBorder" id="header">
                 <tr>
                     <td class="auto-style26" id="logoImgHolder">
                         <asp:Image ID="logoImg" runat="server" Height="168px" ImageUrl="~/pictures/logo.png" Width="364px"/>
                     </td>
                     <td class="auto-style27" id="homeMenu">
-                        <asp:LinkButton ID="homeMenuLButton" runat="server" OnClick="homeMenuLButton_Click">Home</asp:LinkButton>
+                        <asp:LinkButton ID="homeMenuLButton" runat="server" OnClick="homeMenuLButton_Click" CssClass="menuStyle">Home</asp:LinkButton>
                     </td>
                     <td class="auto-style49" id="searchMenu">
-                        <asp:LinkButton ID="searchRestaurantLButton" runat="server" OnClick="searchRestaurantLButton_Click">Search Restaurant</asp:LinkButton>
+                        <asp:LinkButton ID="searchRestaurantLButton" runat="server" OnClick="searchRestaurantLButton_Click" CssClass="menuStyle">Search Restaurant</asp:LinkButton>
                     </td>
                 </tr>
             </table>
@@ -99,45 +134,46 @@
         <div>
             <table class="auto-style16" id="restaurantInfoTable">
                 <tr>
-                    <td class="auto-style35" id="regionImgHolder">
-                        Region of restaurant:&nbsp; <asp:Literal ID="regionLtrl" runat="server"></asp:Literal>
-                        &nbsp;<br />
+                    <td class="textStyle" id="regionImgHolder"><span class="regionTextStyle">
+                        Region of restaurant:&nbsp; </span><asp:Literal ID="regionLtrl" runat="server"></asp:Literal>
+                        &nbsp; 
                         <br />
-                        <asp:Image ID="restaurantImg" runat="server" Height="232px" ImageUrl="~/koala.png" Width="355px" />
+                        <br />
+                        <asp:Image ID="restaurantImg" runat="server" Height="351px" ImageUrl="~/koala.png" Width="529px" CssClass="pictureBorder" />
                     </td>
                     <td id="restaurantNameTextHolder" class="auto-style36">
                         <table class="auto-style52">
                             <tr>
-                                <td class="auto-style55">Name of the restaurant:&nbsp;&nbsp;&nbsp;&nbsp;
+                                <td class="auto-style58"><span class="explanationStyle">Name of the restaurant:&nbsp;&nbsp;&nbsp;&nbsp; </span>
                         </td>
-                                <td class="auto-style54">
-                        <asp:Literal ID="restaurantNameLtrl" runat="server"></asp:Literal>
+                                <td class="auto-style54"><span class="textStyle">
+                        <asp:Literal ID="restaurantNameLtrl" runat="server"></asp:Literal></span>
                                 </td>
                             </tr>
                             <tr>
-                                <td class="auto-style55">Style of cuisine:&nbsp;&nbsp;&nbsp;</td>
-                                <td class="auto-style54">
-                        <asp:TextBox ID="cuisineTextBox" runat="server" Height="25px" Width="192px" ReadOnly="True"></asp:TextBox>
+                                <td class="auto-style58"><span class="explanationStyle">Style of cuisine:&nbsp;&nbsp;&nbsp; </span></td>
+                                <td class="auto-style54"><span class="textStyle">
+                        <asp:TextBox ID="cuisineTextBox" runat="server" Height="25px" Width="192px" ReadOnly="True"></asp:TextBox></span>
                                 </td>
                             </tr>
                             <tr>
-                                <td class="auto-style55">Awarded year:&nbsp;&nbsp;</td>
-                                <td class="auto-style54">
-                        <asp:TextBox ID="awardedYearTextBox" runat="server" Height="25px" Width="192px" ReadOnly="True"></asp:TextBox>
+                                <td class="auto-style58"><span class="explanationStyle">Awarded year:&nbsp;&nbsp; </span></td>
+                                <td class="auto-style54"><span class="textStyle">
+                        <asp:TextBox ID="awardedYearTextBox" runat="server" Height="25px" Width="192px" ReadOnly="True"></asp:TextBox></span>
                                 </td>
                             </tr>
                             <tr>
-                                <td class="auto-style55">Star count:&nbsp;&nbsp;</td>
-                                <td class="auto-style54">
-                        <asp:TextBox ID="starTypeTextBox" runat="server" Height="25px" Width="192px" ReadOnly="True"></asp:TextBox>
+                                <td class="auto-style58"><span class="explanationStyle">Star count:&nbsp;&nbsp; </span></td>
+                                <td class="auto-style54"><span class="textStyle">
+                        <asp:TextBox ID="starTypeTextBox" runat="server" Height="25px" Width="192px" ReadOnly="True"></asp:TextBox></span>
                                 </td>
                             </tr>
                             <tr>
-                                <td class="auto-style56">URL of restaurant site:&nbsp;&nbsp;</td>
-                                <td>
+                                <td class="auto-style56"><span class="explanationStyle">URL of restaurant site:&nbsp;&nbsp; </span></td>
+                                <td> <span class="textStyle">
                         <asp:HyperLink ID="restaurantUrlLink" runat="server">HyperLink</asp:HyperLink>
                         <br />
-                        <em>(You can find restaurant&#39;s location using the URL above.)</em></td>
+                        <em>(You can find restaurant&#39;s location using the URL above.)</em></span></td>
                             </tr>
                         </table>
                     </td>
@@ -147,19 +183,16 @@
               <br />
             <br />
             <br />
-            <br />
-            <br />
-            <br />
-            <br />
             <div id="blank2">
-                  <br />
             <br />
             <br />
         </div>
         <div>
-            <table class="auto-style30" id="footer">
+            <table class="footerStyle" id="footer">
                 <tr>
-                    <td class="auto-style43" id="copyrightTextHolder">Copyright © 2021&nbsp;      <td id="gitHubTextHolder" class="auto-style47">This website is made for a school project. You are welcome to check our open-source codes from the GitHub link below:<br />
+                    <td class="auto-style43" id="copyrightTextHolder">Copyright © 2021&nbsp;      <td id="gitHubTextHolder" class="auto-style47">
+                    <br />
+                    This website is made for a school project. You are welcome to check our open-source codes from the GitHub link below:<br />
                         <asp:LinkButton ID="gitHubLink" runat="server">https://github.com/ipekozkuyumcu/MichelinStarRestaurants</asp:LinkButton>
                         <br />
                         <br />

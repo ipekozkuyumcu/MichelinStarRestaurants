@@ -4,59 +4,56 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
+    <link rel="stylesheet" href="CitySelectionStyle.css"/>
     <title></title>
     <style type="text/css">
-        .auto-style16 {
-            width: 103%;
+        .headerBorder{
+            border-bottom-style: double;
+            border-bottom-color: #5B3889;
+            width: 107%;
             height: 96px;
-            margin-left: 60px;
-        }
-        .auto-style17 {
-            width: 485px;
-            text-align: center;
+            margin-left: 0px;
         }
         .auto-style18 {
-            width: 100%;
+            width: 169%;
             height: 289px;
         }
         .auto-style20 {
             text-align: right;
+            height: 38px;
         }
         .auto-style26 {
             width: 178px;
             text-align: center;
+            height: 173px;
         }
          .auto-style25 {
-            width: 66%;
+            width: 78%;
             height: 501px;
-            margin-left: 316px;
+            margin-left: 0px;
         }
         .auto-style27 {
             width: 816px;
             text-align: left;
+            height: 173px;
         }
         .auto-style28 {
             width: 213px;
             text-align: left;
-        }
-        .auto-style30 {
-             width: 107%;
-            height: 71px;
+            height: 173px;
         }
         .auto-style31 {
-            width: 401px;
+            width: 646px;
             text-align: center;
         }
         #gitHubTextHolder {
             text-align: center;
         }
-        .auto-style33 {
+        .comboStyle {
             text-align: left;
             height: 129px;
-        }
-        .auto-style35 {
-            text-align: left;
-            height: 102px;
+            font-family: "Berlin Sans";
+            font-size: 18px;
         }
         .auto-style36 {
             text-align: left;
@@ -67,34 +64,46 @@
             height: 57px;
         }
         .menuStyle {
-            font-family: Lemon;
-            font-size: 18px;
+            font-family: "berlin Sans FB";
+            font-size: 25px;
             font-style: normal;
             color: #5B3889;
             text-decoration: none;
         }
+        .pictureBorder {
+            border: thick double;
+            border-color: #5B3889;
+        }
         .regionTextStyle {
-            font-family: lemon;
-            font-size: 15px;
+            font-family: "berlin Sans FB";
+            font-size: 20px;
             color: #5B3889;
         }
-        .footerStyle {
+        .textStyle {
             font-family: "Berlin Sans";
-            font-size: 15px;
+            font-size: 20px;
+            width: 103%;
+            height: 96px;
+            margin-left: 0px;
+            text-align: center;
         }
         .explanationStyle {
             font-family: "berlin Sans FB";
             font-size: 20px;
             color: #000000;
         }
-        .textStyle {
+        .footerStyle {
             font-family: "Berlin Sans";
-            font-size: 18px;
+            font-size: 15px;
+            width: 118%;
+            height: 71px;
+            border-left-color: #5B3889;
+            border-right-color: #5B3889;
+            border-top-style: double;
+            border-top-color: #5B3889;
+            border-bottom-color: #5B3889;
         }
-        .pictureBorder {
-            border: thick double;
-            border-color: #5B3889;
-        }
+        
 
 
     </style>
@@ -102,7 +111,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <table class="auto-style16" id="header">
+            <table class="headerBorder" id="header">
                 <tr>
                     <td class="auto-style27" id="logoImgHolder">
                         <asp:Image ID="logoImg" runat="server" Height="169px" ImageUrl="~/pictures/logo.png" Width="365px" />
@@ -129,32 +138,32 @@
         <div>
             <table class="auto-style25" id="citySelectionTable">
                 <tr>
-                    <td class="auto-style17" id="regionImgHolder"><span class="regionTextStyle">
+                    <td class="textStyle" id="regionImgHolder"><span class="regionTextStyle">
                         &nbsp;&nbsp;&nbsp;&nbsp; Selected Region:&nbsp;&nbsp; </span>
                         <asp:Literal ID="regionLtrl" runat="server"></asp:Literal>
                         <br />
                         <br />
-                    &nbsp;&nbsp;&nbsp;&nbsp;
-                        <asp:Image ID="regionImg" runat="server" Height="232px" ImageUrl="~/pictures/austria.jpeg" Width="355px" CssClass="pictureBorder" />
+                        &nbsp;
+                        <asp:Image ID="regionImg" runat="server" Height="335px" ImageUrl="~/pictures/austria.jpeg" Width="493px" CssClass="pictureBorder" />
                     </td>
                     <td>
                         <table class="auto-style18" id="citySelectionInnerTable">
                             <tr>
-                                <td class="auto-style36" id="labelHolder1">
-                                    &nbsp;Select city where you want to find a restaurant:</td>
+                                <td class="auto-style36" id="labelHolder1"><span class="explanationStyle">
+                                    &nbsp;Select city where you want to find a restaurant: </span></td>
                             </tr>
                             <tr>
-                                <td class="auto-style33" id="ddCityListHolder">
+                                <td class="comboStyle" id="ddCityListHolder">
                                     <asp:DropDownList ID="cityList" runat="server" Height="90px" Width="363px" DataTextField="city" AutoPostBack="True" DataValueField="city" AppendDataBoundItems="true" OnSelectedIndexChanged="cityList_SelectedIndexChanged">
                                     </asp:DropDownList>
                                     </td>
                             </tr>
                             <tr>
-                                <td class="auto-style37" id="labelHolder2">
-                                    Select a restaurant located at the city above, that you want to display information of: </td>
+                                <td class="auto-style37" id="labelHolder2"><span class="explanationStyle">
+                                    Select a restaurant located at the city above, that you want to display information of: </span></td>
                             </tr>
                             <tr>
-                                <td class="auto-style35" id="ddRestaurantNameListHolder">
+                                <td class="comboStyle" id="ddRestaurantNameListHolder">
                                     <asp:DropDownList ID="restaurantNameList" runat="server" Height="90px" Width="363px" DataTextField="name" AutoPostBack="True" DataValueField="name" AppendDataBoundItems="true">
                                     </asp:DropDownList>
                                     <br />
@@ -162,7 +171,8 @@
                             </tr>
                             <tr>
                                 <td class="auto-style20" id="searchButtonHolder">
-                                    <asp:Button ID="searchRestaurantButton" runat="server" Height="30px" Text="Search Restaurant" Width="163px" OnClick="searchRestaurantButton_Click" />
+                                    <br />
+                                    <asp:Button ID="searchRestaurantButton" runat="server" Height="36px" Text="Search Restaurant" Width="207px" class="regionTextStyle" OnClick="searchRestaurantButton_Click" />
 &nbsp;<br />
                                     </td>
                             </tr>
@@ -175,19 +185,16 @@
                   <br />
                   <br />
                   <br />
-                  <br />
-                  <br />
-                  <br />
-                  <br />
-                  <br />
             <br />
             <br />
         </div>
         <div>
-            <table class="auto-style30" id="footer">
+            <table class="footerStyle" id="footer">
                 <tr>
                     <td class="auto-style31" id="copyrightTextHolder">Copyright © 2021&nbsp;</td>
-                    <td id="gitHubTextHolder">This website is made for a school project. You are welcome to check our open-source codes from the GitHub link below<br />
+                    <td id="gitHubTextHolder">
+                        <br />
+                        This website is made for a school project. You are welcome to check our open-source codes from the GitHub link below<br />
                         <asp:LinkButton ID="gitHubLink" runat="server">https://github.com/ipekozkuyumcu/MichelinStarRestaurants</asp:LinkButton>
                         <br />
                         <br />
