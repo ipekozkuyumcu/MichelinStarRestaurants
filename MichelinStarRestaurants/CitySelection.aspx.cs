@@ -14,9 +14,7 @@ namespace MichelinStarRestaurants
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            //var id = Request.QueryString["id"];
             string region = Request.QueryString["region"];
-            //string name = Request.QueryString["name"];
             string changedText = region.Trim().Replace(" ", "_");
             changedText = changedText.ToLower();
             string imgUrl = "pictures/" + changedText + ".jpeg";
@@ -41,7 +39,7 @@ namespace MichelinStarRestaurants
                     da.Fill(ds);
 
                     cityList.DataSource = ds.Tables[0];
-                    //cityList.DataTextField = "city"; // Text field which will be show in UI
+                   // Text field which will be show in UI
                     cityList.DataBind();
                     cityList_SelectedIndexChanged(sender, e);
                 }
