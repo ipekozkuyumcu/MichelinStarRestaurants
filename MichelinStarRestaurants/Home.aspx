@@ -117,7 +117,6 @@
             color: #5B3889;
             text-decoration: none;
         }
-    
         .pictureBorder {
             border: thick double;
             border-color: #5B3889;
@@ -126,24 +125,20 @@
             font-family: "Berlin Sans";
             font-size: 18px;
         }
-    
         .auto-style41 {
-            font-family: "Lemon";
+            font-family: Lemon;
             font-size: 20px;
             color: #5B3889;
             font-weight: normal;
         }
-    
         .auto-style42 {
             font-weight: normal;
         }
-    
         .explanationStyle {
             font-family: "berlin Sans FB";
             font-size: 20px;
             color: #000000;
         }
-    
         .regionTextStyle {
             font-family: lemon;
             font-size: 15px;
