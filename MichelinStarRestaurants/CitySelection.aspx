@@ -66,9 +66,37 @@
             text-align: left;
             height: 57px;
         }
-        .logoStyle {
-            border: thick double #000080;
+        .menuStyle {
+            font-family: Lemon;
+            font-size: 18px;
+            font-style: normal;
+            color: #5B3889;
+            text-decoration: none;
         }
+        .regionTextStyle {
+            font-family: lemon;
+            font-size: 15px;
+            color: #5B3889;
+        }
+        .footerStyle {
+            font-family: "Berlin Sans";
+            font-size: 15px;
+        }
+        .explanationStyle {
+            font-family: "berlin Sans FB";
+            font-size: 20px;
+            color: #000000;
+        }
+        .textStyle {
+            font-family: "Berlin Sans";
+            font-size: 18px;
+        }
+        .pictureBorder {
+            border: thick double;
+            border-color: #5B3889;
+        }
+
+
     </style>
 </head>
 <body>
@@ -77,13 +105,13 @@
             <table class="auto-style16" id="header">
                 <tr>
                     <td class="auto-style27" id="logoImgHolder">
-                        <asp:Image ID="logoImg" runat="server" Height="169px" ImageUrl="~/pictures/logo.png" Width="365px" CssClass="logoStyle"/>
+                        <asp:Image ID="logoImg" runat="server" Height="169px" ImageUrl="~/pictures/logo.png" Width="365px" />
                     </td>
                     <td class="auto-style26" id="homeMenu">
-                        <asp:LinkButton ID="homeMenuLButton" runat="server" OnClick="homeMenuLButton_Click">Home</asp:LinkButton>
+                        <asp:LinkButton ID="homeMenuLButton" runat="server" OnClick="homeMenuLButton_Click" CssClass="menuStyle">Home</asp:LinkButton>
                     </td>
                     <td class="auto-style28" id="searchMenu">
-                        <asp:LinkButton ID="searchRestaurantLButton" runat="server" OnClick="searchRestaurantLButton_Click">Search Restaurant</asp:LinkButton>
+                        <asp:LinkButton ID="searchRestaurantLButton" runat="server" OnClick="searchRestaurantLButton_Click" CssClass="menuStyle">Search Restaurant</asp:LinkButton>
                     </td>
                 </tr>
             </table>
@@ -101,13 +129,13 @@
         <div>
             <table class="auto-style25" id="citySelectionTable">
                 <tr>
-                    <td class="auto-style17" id="regionImgHolder">
-                        &nbsp;&nbsp;&nbsp;&nbsp; Selected Region:
+                    <td class="auto-style17" id="regionImgHolder"><span class="regionTextStyle">
+                        &nbsp;&nbsp;&nbsp;&nbsp; Selected Region:&nbsp;&nbsp; </span>
                         <asp:Literal ID="regionLtrl" runat="server"></asp:Literal>
                         <br />
                         <br />
                     &nbsp;&nbsp;&nbsp;&nbsp;
-                        <asp:Image ID="regionImg" runat="server" Height="232px" ImageUrl="~/pictures/austria.jpeg" Width="355px" />
+                        <asp:Image ID="regionImg" runat="server" Height="232px" ImageUrl="~/pictures/austria.jpeg" Width="355px" CssClass="pictureBorder" />
                     </td>
                     <td>
                         <table class="auto-style18" id="citySelectionInnerTable">

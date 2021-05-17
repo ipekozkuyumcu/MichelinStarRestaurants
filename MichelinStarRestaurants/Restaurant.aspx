@@ -7,7 +7,7 @@
         <title></title>
     <style type="text/css">
          .auto-style16 {
-             width: 86%;
+             width: 90%;
             height: 501px;
             margin-left: 239px;
         }
@@ -26,7 +26,7 @@
             height: 71px;
         }
         .auto-style35 {
-            width: 608px;
+            width: 558px;
             text-align: center;
             height: 255px;
         }
@@ -66,9 +66,7 @@
         .auto-style56 {
             width: 253px;
         }
-        .logoStyle {
-            border: thick double #000080;
-        }
+      
     </style>
 </head>
 <body>
@@ -77,7 +75,7 @@
             <table class="auto-style48" id="header">
                 <tr>
                     <td class="auto-style26" id="logoImgHolder">
-                        <asp:Image ID="logoImg" runat="server" Height="168px" ImageUrl="~/pictures/logo.png" Width="364px" CssClass="logoStyle"/>
+                        <asp:Image ID="logoImg" runat="server" Height="168px" ImageUrl="~/pictures/logo.png" Width="364px"/>
                     </td>
                     <td class="auto-style27" id="homeMenu">
                         <asp:LinkButton ID="homeMenuLButton" runat="server" OnClick="homeMenuLButton_Click">Home</asp:LinkButton>
