@@ -56,13 +56,13 @@
         .auto-style25 {
             width: 75%;
             height: 501px;
-            margin-left: 97px;
+            margin-left: 215px;
         }
         .auto-style26 {
             text-align: center;
             height: 149px;
             width: 1537px;
-            margin-left: 95px;
+            margin-left: 126px;
         }
         .auto-style28 {
             height: 64px;
@@ -164,7 +164,7 @@
             <br class="auto-style32" />
             </strong>
         </div>
-        <div id="selectRegionTextHolder" class="auto-style39"><strong><span class="auto-style32">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Select the region that you want to search a restaurant at:</span></strong><br />
+        <div id="selectRegionTextHolder" class="auto-style39"><strong><span class="auto-style32">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Select the region that you want to search a restaurant at:</span></strong><br />
             <br />
             <br />
         </div>
@@ -331,6 +331,7 @@
             </tr>
         </table>
         <div id="blank3">
+            <br />
             <br />
             <br />
             <br />

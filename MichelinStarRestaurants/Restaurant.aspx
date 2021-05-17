@@ -7,9 +7,9 @@
         <title></title>
     <style type="text/css">
          .auto-style16 {
-            width: 75%;
+             width: 86%;
             height: 501px;
-            margin-left: 192px;
+            margin-left: 239px;
         }
         .auto-style26 {
             width: 817px;
@@ -25,18 +25,9 @@
             width: 107%;
             height: 71px;
         }
-        .auto-style33 {
-            width: 485px;
-            text-align: center;
-            height: 37px;
-        }
-        .auto-style34 {
-            text-align: center;
-            height: 37px;
-        }
         .auto-style35 {
-            width: 485px;
-            text-align: right;
+            width: 608px;
+            text-align: center;
             height: 255px;
         }
         .auto-style36 {
@@ -61,14 +52,19 @@
             text-align: left;
             height: 172px;
         }
-        .auto-style50 {
-            width: 485px;
-            text-align: right;
+        .auto-style52 {
+            width: 100%;
+            height: 294px;
+        }
+        .auto-style54 {
             height: 50px;
         }
-        .auto-style51 {
-            text-align: left;
+        .auto-style55 {
             height: 50px;
+            width: 253px;
+        }
+        .auto-style56 {
+            width: 253px;
         }
     </style>
 </head>
@@ -103,58 +99,52 @@
             <table class="auto-style16" id="restaurantInfoTable">
                 <tr>
                     <td class="auto-style35" id="regionImgHolder">
-                        <br />
                         Region of restaurant:&nbsp; <asp:Literal ID="regionLtrl" runat="server"></asp:Literal>
-                        &nbsp;&nbsp;&nbsp;&nbsp;
-                        <br />
+                        &nbsp;<br />
                         <br />
                         <asp:Image ID="restaurantImg" runat="server" Height="232px" ImageUrl="~/koala.png" Width="355px" />
-                    &nbsp;&nbsp;&nbsp;&nbsp;
                     </td>
                     <td id="restaurantNameTextHolder" class="auto-style36">
-                        Name of the restaurant:
-                        <br />
-                        <br />
-                        <br />
+                        <table class="auto-style52">
+                            <tr>
+                                <td class="auto-style55">Name of the restaurant:&nbsp;&nbsp;&nbsp;&nbsp;
+                        </td>
+                                <td class="auto-style54">
                         <asp:Literal ID="restaurantNameLtrl" runat="server"></asp:Literal>
-                        <strong>
-                        <br />
-                        </strong></td>
-                </tr>
-                <tr>
-                    <td class="auto-style33" id="infoTableBlank1">
-                    </td>
-                    <td id="infoTableBlank2" class="auto-style34">
-                    </td>
-                </tr>
-                <tr>
-                    <td class="auto-style50" id="labelHolder1">Style of cuisine:&nbsp;&nbsp;&nbsp;&nbsp;   <td id="textBoxHolder1" class="auto-style51">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="auto-style55">Style of cuisine:&nbsp;&nbsp;&nbsp;</td>
+                                <td class="auto-style54">
                         <asp:TextBox ID="cuisineTextBox" runat="server" Height="25px" Width="192px" ReadOnly="True"></asp:TextBox>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="auto-style50" id="labelHolder2">Awarded year:&nbsp;&nbsp;&nbsp;&nbsp; </td>
-                    <td id="textBoxHolder2" class="auto-style51">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="auto-style55">Awarded year:&nbsp;&nbsp;</td>
+                                <td class="auto-style54">
                         <asp:TextBox ID="awardedYearTextBox" runat="server" Height="25px" Width="192px" ReadOnly="True"></asp:TextBox>
-                    </td>
-                </tr>
-                
-                <tr>
-                    <td class="auto-style50" id="labelHolder3">Star type:&nbsp;&nbsp;&nbsp;&nbsp; </td>
-                    <td id="textBoxHolder3" class="auto-style51">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="auto-style55">Star count:&nbsp;&nbsp;</td>
+                                <td class="auto-style54">
                         <asp:TextBox ID="starTypeTextBox" runat="server" Height="25px" Width="192px" ReadOnly="True"></asp:TextBox>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="auto-style50" id="labelHolder4">URL of restaurant site:&nbsp;&nbsp;&nbsp;&nbsp; </td>
-                    <td id="textBoxHolder4" class="auto-style51">
-                        <br />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="auto-style56">URL of restaurant site:&nbsp;&nbsp;</td>
+                                <td>
                         <asp:HyperLink ID="restaurantUrlLink" runat="server">HyperLink</asp:HyperLink>
                         <br />
-                        <em>(sYou can find restaurant&#39;s location using the URL above.)</em></td>
+                        <em>(You can find restaurant&#39;s location using the URL above.)</em></td>
+                            </tr>
+                        </table>
+                    </td>
                 </tr>
+
             </table>
               <br />
+            <br />
             <br />
             <br />
             <br />
@@ -168,8 +158,7 @@
         <div>
             <table class="auto-style30" id="footer">
                 <tr>
-                    <td class="auto-style43" id="copyrightTextHolder">Copyright © 2021&nbsp;</td>
-                    <td id="gitHubTextHolder" class="auto-style47">This website is made for a school project. You are welcome to check our open-source codes from the GitHub link below:<br />
+                    <td class="auto-style43" id="copyrightTextHolder">Copyright © 2021&nbsp;      <td id="gitHubTextHolder" class="auto-style47">This website is made for a school project. You are welcome to check our open-source codes from the GitHub link below:<br />
                         <asp:LinkButton ID="gitHubLink" runat="server">https://github.com/ipekozkuyumcu/MichelinStarRestaurants</asp:LinkButton>
                         <br />
                         <br />
