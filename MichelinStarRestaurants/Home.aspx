@@ -100,6 +100,9 @@
             width: 452px;
             text-align: center;
         }
+        .logoStyle {
+            border: thick double #000080;
+        }
     </style>
     <link href="StyleSheet1.css" rel="stylesheet" type="text/css" />
     <link href="StyleSheet1.css" rel="stylesheet" type="text/css" />
@@ -111,10 +114,12 @@
             <table class="auto-style16" id="header">
                 <tr>
                     <td class="auto-style2" id="logoImgHolder">
-                        <asp:Image ID="logoImg" runat="server" Height="173px" ImageUrl="~/pictures/logo.png" Width="362px"/>
+                        <asp:Image ID="logoImg" runat="server" Height="173px" ImageUrl="~/pictures/logo.png" Width="362px" CssClass="logoStyle"/>
                     </td>
                     <td class="auto-style37" id="homeMenu">
+                        <p>
                         <asp:LinkButton ID="homeMenuLButton" runat="server" OnClick="homeMenuLButton_Click">Home</asp:LinkButton>
+                        </p>
                     </td>
                     <td class="auto-style36" id="searchMenu">
                         <asp:LinkButton ID="searchRestaurantLButton" runat="server" OnClick="searchRestaurantLButton_Click">Search Restaurant</asp:LinkButton>

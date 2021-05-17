@@ -66,6 +66,9 @@
             text-align: left;
             height: 57px;
         }
+        .logoStyle {
+            border: thick double #000080;
+        }
     </style>
 </head>
 <body>
@@ -74,7 +77,7 @@
             <table class="auto-style16" id="header">
                 <tr>
                     <td class="auto-style27" id="logoImgHolder">
-                        <asp:Image ID="logoImg" runat="server" Height="169px" ImageUrl="~/pictures/logo.png" Width="365px" />
+                        <asp:Image ID="logoImg" runat="server" Height="169px" ImageUrl="~/pictures/logo.png" Width="365px" CssClass="logoStyle"/>
                     </td>
                     <td class="auto-style26" id="homeMenu">
                         <asp:LinkButton ID="homeMenuLButton" runat="server" OnClick="homeMenuLButton_Click">Home</asp:LinkButton>
