@@ -68,7 +68,6 @@
             border-top-color: #5B3889;
             border-bottom-color: #5B3889;
         }
-        
 
 
     </style>
@@ -119,7 +118,7 @@
                             </tr>
                             <tr>
                                 <td class="comboStyle" id="ddCityListHolder">
-                                    <asp:DropDownList ID="cityList" runat="server" Height="90px" Width="363px" DataTextField="city" AutoPostBack="True" DataValueField="city" AppendDataBoundItems="true" OnSelectedIndexChanged="cityList_SelectedIndexChanged">
+                                    <asp:DropDownList ID="cityList" runat="server" Height="60px" Width="363px" DataTextField="city" AutoPostBack="True" DataValueField="city" AppendDataBoundItems="true" OnSelectedIndexChanged="cityList_SelectedIndexChanged">
                                     </asp:DropDownList>
                                     </td>
                             </tr>
@@ -129,7 +128,7 @@
                             </tr>
                             <tr>
                                 <td class="comboStyle" id="ddRestaurantNameListHolder">
-                                    <asp:DropDownList ID="restaurantNameList" runat="server" Height="90px" Width="363px" DataTextField="name" AutoPostBack="True" DataValueField="name" AppendDataBoundItems="true">
+                                    <asp:DropDownList ID="restaurantNameList" runat="server" Height="60px" Width="363px" DataTextField="name" AutoPostBack="True" DataValueField="name" AppendDataBoundItems="true">
                                     </asp:DropDownList>
                                     <br />
                                     </td>
