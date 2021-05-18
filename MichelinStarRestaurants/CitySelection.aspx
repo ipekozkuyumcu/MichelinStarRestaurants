@@ -159,7 +159,7 @@
                     <td id="gitHubTextHolder">
                         <br />
                         This website is made for a school project. You are welcome to check our open-source codes from the GitHub link below<br />
-                        <asp:LinkButton ID="gitHubLink" runat="server">https://github.com/ipekozkuyumcu/MichelinStarRestaurants</asp:LinkButton>
+                        <asp:HyperLink ID="gitHubLink" runat="server" NavigateUrl="https://github.com/ipekozkuyumcu/MichelinStarRestaurants">https://github.com/ipekozkuyumcu/MichelinStarRestaurants</asp:HyperLink>
                         <br />
                         <br />
                         Contributors&#39; GitHub pages:<br />

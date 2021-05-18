@@ -168,7 +168,7 @@
                     <td class="auto-style43" id="copyrightTextHolder">Copyright © 2021&nbsp;      <td id="gitHubTextHolder" class="auto-style47">
                     <br />
                     This website is made for a school project. You are welcome to check our open-source codes from the GitHub link below:<br />
-                        <asp:LinkButton ID="gitHubLink" runat="server">https://github.com/ipekozkuyumcu/MichelinStarRestaurants</asp:LinkButton>
+                        <asp:HyperLink ID="gitHubLink" runat="server" NavigateUrl="https://github.com/ipekozkuyumcu/MichelinStarRestaurants">https://github.com/ipekozkuyumcu/MichelinStarRestaurants</asp:HyperLink>
                         <br />
                         <br />
                         Contributors&#39; GitHub pages:<br />
