@@ -1,3 +1,118 @@
 ﻿body {
     background-color: #E2E2E2;
 }
+
+.menuStyle {
+    font-family: "berlin Sans FB";
+    font-size: 25px;
+    font-style: normal;
+    color: #5B3889;
+    text-decoration: none;
+}
+
+.titleStyle {
+    font-family: 'Berlin Sans FB';
+    font-size: 45px;
+    color: #000080;
+    height: 64px;
+    width: 1534px;
+}
+
+.img-button {
+    width: 481px;
+    text-align: center;
+}
+
+.welcomeTitleStyle {
+    font-family: "berlin Sans FB";
+    font-size: 25px;
+    font-style: normal;
+    color: #5B3889;
+    text-decoration: none;
+}
+
+.pictureBorder {
+    border: thick double;
+    border-color: #5B3889;
+}
+
+.homeImgBorder {
+    border: thick double;
+    border-color: #5B3889;
+}
+
+.pictureBorder:hover {
+    -webkit-box-shadow: 7px 7px 10px 0px rgba(57, 21, 237, 0.5);
+    -moz-box-shadow: 7px 7px 10px 0px rgba(57, 21, 237, 0.5);
+    box-shadow: 7px 7px 10px 0px rgba(57, 21, 237, 0.5);
+}
+
+.textStyle {
+    font-family: "Berlin Sans";
+    font-size: 18px;
+}
+
+.auto-style41 {
+    font-family: "berlin Sans FB";
+    font-size: 30px;
+    color: #5B3889;
+    font-weight: normal;
+}
+
+.auto-style42 {
+    font-weight: normal;
+}
+
+.explanationStyle {
+    font-family: "berlin Sans FB";
+    font-size: 20px;
+    color: #000000;
+}
+
+.regionTextStyle {
+    font-family: "berlin Sans FB";
+    font-size: 20px;
+    color: #5B3889;
+}
+
+.footerStyle {
+    font-family: "Berlin Sans";
+    font-size: 15px;
+}
+
+.auto-style43 {
+    font-family: "berlin Sans FB";
+    font-size: 25px;
+    font-style: normal;
+    color: #5B3889;
+    text-decoration: none;
+    height: 65px;
+}
+
+.headerBorder {
+    border-bottom-style: double;
+    border-bottom-color: #5B3889;
+    width: 103%;
+    height: 96px;
+    margin-left: 60px;
+}
+
+.auto-style44 {
+    border-bottom-style: double;
+    border-bottom-color: #5B3889;
+    width: 118%;
+    height: 96px;
+    margin-left: 0px;
+}
+
+.footerStyle {
+    font-family: "Berlin Sans";
+    font-size: 15px;
+    width: 118%;
+    height: 71px;
+    border-left-color: #5B3889;
+    border-right-color: #5B3889;
+    border-top-style: double;
+    border-top-color: #5B3889;
+    border-bottom-color: #5B3889;
+}

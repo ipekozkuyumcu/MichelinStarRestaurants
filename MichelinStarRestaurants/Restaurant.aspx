@@ -18,7 +18,7 @@
             height: 172px;
         }
         .auto-style27 {
-            width: 178px;
+            width: 85px;
             text-align: center;
             height: 172px;
         }
@@ -34,15 +34,9 @@
             width: 965px;
             text-align: center;
         }
-        .headerBorder{
-            border-bottom-style: double;
-            border-bottom-color: #5B3889;
-            width: 107%;
-            height: 96px;
-            margin-left: 0px;
-        }
+        
         .auto-style49 {
-            width: 213px;
+            width: 125px;
             text-align: left;
             height: 172px;
         }
@@ -57,43 +51,24 @@
             width: 253px;
             text-align: right;
         }
-        .menuStyle {
-            font-family: "berlin Sans FB";
-            font-size: 25px;
-            font-style: normal;
-            color: #5B3889;
-            text-decoration: none;
-        }
+        
         .auto-style58 {
             height: 50px;
             width: 253px;
             text-align: right;
         }
-        .pictureBorder {
-            border: thick double;
-            border-color: #5B3889;
+      
+        .auto-style59 {
+            border-bottom-style: double;
+            border-bottom-color: #5B3889;
+            width: 100%;
+            height: 96px;
+            margin-left: 0px;
         }
-        .regionTextStyle {
-            font-family: "berlin Sans FB";
-            font-size: 20px;
-            color: #5B3889;
-        }
-        .textStyle {
-            font-family: "Berlin Sans";
-            font-size: 20px;
-            width: 558px;
-            text-align: center;
-            height: 255px;
-        }
-        .explanationStyle {
-            font-family: "berlin Sans FB";
-            font-size: 20px;
-            color: #000000;
-        }
-        .footerStyle {
+        .auto-style60 {
             font-family: "Berlin Sans";
             font-size: 15px;
-            width: 118%;
+            width: 100%;
             height: 71px;
             border-left-color: #5B3889;
             border-right-color: #5B3889;
@@ -107,7 +82,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <table class="headerBorder" id="header">
+            <table class="auto-style59" id="header">
                 <tr>
                     <td class="auto-style26" id="logoImgHolder">
                         <asp:Image ID="logoImg" runat="server" Height="168px" ImageUrl="~/pictures/logo.png" Width="364px"/>
@@ -188,7 +163,7 @@
             <br />
         </div>
         <div>
-            <table class="footerStyle" id="footer">
+            <table class="auto-style60" id="footer">
                 <tr>
                     <td class="auto-style43" id="copyrightTextHolder">Copyright © 2021&nbsp;      <td id="gitHubTextHolder" class="auto-style47">
                     <br />

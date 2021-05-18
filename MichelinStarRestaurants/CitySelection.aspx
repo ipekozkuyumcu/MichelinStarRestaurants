@@ -7,13 +7,7 @@
     <link rel="stylesheet" href="CitySelectionStyle.css"/>
     <title></title>
     <style type="text/css">
-        .headerBorder{
-            border-bottom-style: double;
-            border-bottom-color: #5B3889;
-            width: 107%;
-            height: 96px;
-            margin-left: 0px;
-        }
+       
         .auto-style18 {
             width: 169%;
             height: 289px;
@@ -24,7 +18,7 @@
         }
         .auto-style26 {
             width: 178px;
-            text-align: center;
+            text-align: right;
             height: 173px;
         }
          .auto-style25 {
@@ -38,23 +32,15 @@
             height: 173px;
         }
         .auto-style28 {
-            width: 213px;
-            text-align: left;
+            width: 170px;
+            text-align: center;
             height: 173px;
         }
         .auto-style31 {
             width: 646px;
             text-align: center;
         }
-        #gitHubTextHolder {
-            text-align: center;
-        }
-        .comboStyle {
-            text-align: left;
-            height: 129px;
-            font-family: "Berlin Sans";
-            font-size: 18px;
-        }
+        
         .auto-style36 {
             text-align: left;
             height: 54px;
@@ -63,39 +49,18 @@
             text-align: left;
             height: 57px;
         }
-        .menuStyle {
-            font-family: "berlin Sans FB";
-            font-size: 25px;
-            font-style: normal;
-            color: #5B3889;
-            text-decoration: none;
-        }
-        .pictureBorder {
-            border: thick double;
-            border-color: #5B3889;
-        }
-        .regionTextStyle {
-            font-family: "berlin Sans FB";
-            font-size: 20px;
-            color: #5B3889;
-        }
-        .textStyle {
-            font-family: "Berlin Sans";
-            font-size: 20px;
-            width: 103%;
+
+        .auto-style38 {
+            border-bottom-style: double;
+            border-bottom-color: #5B3889;
+            width: 100%;
             height: 96px;
             margin-left: 0px;
-            text-align: center;
         }
-        .explanationStyle {
-            font-family: "berlin Sans FB";
-            font-size: 20px;
-            color: #000000;
-        }
-        .footerStyle {
+        .auto-style39 {
             font-family: "Berlin Sans";
             font-size: 15px;
-            width: 118%;
+            width: 100%;
             height: 71px;
             border-left-color: #5B3889;
             border-right-color: #5B3889;
@@ -111,7 +76,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <table class="headerBorder" id="header">
+            <table class="auto-style38" id="header">
                 <tr>
                     <td class="auto-style27" id="logoImgHolder">
                         <asp:Image ID="logoImg" runat="server" Height="169px" ImageUrl="~/pictures/logo.png" Width="365px" />
@@ -172,7 +137,7 @@
                             <tr>
                                 <td class="auto-style20" id="searchButtonHolder">
                                     <br />
-                                    <asp:Button ID="searchRestaurantButton" runat="server" Height="36px" Text="Search Restaurant" Width="207px" class="regionTextStyle" OnClick="searchRestaurantButton_Click" />
+                                    <asp:Button ID="searchRestaurantButton" runat="server" Height="36px" Text="Search Restaurant" Width="207px" class="buttonTextStyle" OnClick="searchRestaurantButton_Click" />
 &nbsp;<br />
                                     </td>
                             </tr>
@@ -189,7 +154,7 @@
             <br />
         </div>
         <div>
-            <table class="footerStyle" id="footer">
+            <table class="auto-style39" id="footer">
                 <tr>
                     <td class="auto-style31" id="copyrightTextHolder">Copyright © 2021&nbsp;</td>
                     <td id="gitHubTextHolder">
