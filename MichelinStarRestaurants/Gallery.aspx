@@ -8,65 +8,40 @@
     <title></title>
     <style type="text/css">
         .auto-style1 {
-    width: 86%;
-    height: 2363px;
-    margin-left: 102px;
-    margin-right: 0px;
-}
+            width: 86%;
+            height: 2363px;
+            margin-left: 102px;
+            margin-right: 0px;
+        }
+        .auto-style32 {
+            font-size: large;
+        }
+        .auto-style38 {
+            width: 1628px;
+            margin-left: 0px;
+        }
+        .auto-style46 {
+            width: 582px;
+            text-align: center;
+        }
+        .auto-style49 {
+            text-align: center;
+            width: 693px;
+        }
+        .auto-style50 {
+            text-align: center;
+        }
+        .auto-style51 {
+            width: 100%;
+        }
+        .auto-style52 {
+            width: 165px;
+            text-align: right;
+        }
+        .auto-style53 {
+            text-align: left;
+        }
 
-.auto-style2 {
-    width: 16px;
-    height: 94px;
-    text-align: left;
-}
-
-.auto-style32 {
-    font-size: large;
-}
-
-.auto-style36 {
-    width: 100px;
-    text-align: center;
-    height: 94px;
-}
-
-.auto-style37 {
-    width: 280px;
-    text-align: right;
-    height: 94px;
-}
-
-.auto-style38 {
-    width: 1628px;
-    margin-left: 0px;
-}
-
-.auto-style46 {
-    width: 582px;
-    text-align: center;
-}
-
-.auto-style49 {
-    text-align: center;
-    width: 693px;
-}
-
-.auto-style50 {
-    text-align: center;
-}
-
-.auto-style51 {
-    width: 100%;
-}
-
-.auto-style52 {
-    width: 165px;
-    text-align: right;
-}
-
-.auto-style53 {
-    text-align: left;
-}
        </style>
 </head>
 <body>
@@ -105,7 +80,7 @@
                     <table class="auto-style51">
                         <tr>
                             <td>
-                                <asp:Image ID="galleryImg" runat="server" Height="259px" ImageUrl="~/koala.png" Width="373px" CssClass="pictureBorder" />
+                                <asp:Image ID="galleryImg" runat="server" Height="259px" ImageUrl="~/pictures/gallery/esszimmer.jpg" Width="373px" CssClass="pictureBorder" />
                             </td>
                         </tr>
                         <tr>
@@ -118,11 +93,11 @@
                     Location:&nbsp;&nbsp;&nbsp;&nbsp; <br />
                     <br />
                     Url:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></td>
-                                        <td class="auto-style53"><span class="textStyle">bla bla<br />
+                                        <td class="auto-style53"><span class="textStyle">Esszimmer<br />
                                             <br />
-                                            bla bla<br />
+                                            Austria / Salzburg<br />
                                             <br />
-                                            bla bla </span></td>
+                                            </span><a href="https://guide.michelin.com/at/en/salzburg-region/salzburg/restaurant/esszimmer">https://guide.michelin.com/at/en/salzburg-region/salzburg/restaurant/esszimmer</a> </td>
                                     </tr>
                                 </table>
                             </td>

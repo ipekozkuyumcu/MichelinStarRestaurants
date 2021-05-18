@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="RestaurantStyle.css"/>
         <title></title>
     <style type="text/css">
-         .auto-style16 {
+        .auto-style16 {
             width: 84%;
             height: 501px;
             margin-left: 277px;
