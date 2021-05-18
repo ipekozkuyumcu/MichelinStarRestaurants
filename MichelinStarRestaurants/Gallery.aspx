@@ -6,58 +6,6 @@
 <head runat="server">
     <link rel="stylesheet" href="GalleryStyle.css"/>
     <title></title>
-    <style type="text/css">
-        .auto-style1 {
-            width: 86%;
-            height: 2363px;
-            margin-left: 102px;
-            margin-right: 0px;
-        }
-        .auto-style2 {
-            width: 16px;
-            height: 94px;
-            text-align: left;
-        }
-        .auto-style32 {
-            font-size: large;
-        }
-        .auto-style36 {
-            width: 100px;
-            text-align: center;
-            height: 94px;
-        }
-        .auto-style37 {
-            width: 280px;
-            text-align: right;
-            height: 94px;
-        }
-        .auto-style38 {
-            width: 1628px;
-            margin-left: 0px;
-        }
-        .auto-style46 {
-            width: 582px;
-            text-align: center;
-        }
-        .auto-style49 {
-            text-align: center;
-            width: 693px;
-        }
-        .auto-style50 {
-            text-align: center;
-        }
-    
-        .auto-style51 {
-            width: 100%;
-        }
-        .auto-style52 {
-            width: 165px;
-            text-align: right;
-        }
-        .auto-style53 {
-            text-align: left;
-        }
-    </style>
 </head>
 <body>
     <form id="form1" runat="server">

@@ -1,6 +1,54 @@
 ﻿body {
     background-color: #E2E2E2;
 }
+.auto-style18 {
+    width: 169%;
+    height: 289px;
+}
+
+.auto-style20 {
+    text-align: right;
+    height: 38px;
+}
+
+.auto-style26 {
+    width: 178px;
+    text-align: right;
+    height: 173px;
+}
+
+.auto-style25 {
+    width: 78%;
+    height: 501px;
+    margin-left: 0px;
+}
+
+.auto-style27 {
+    width: 816px;
+    text-align: left;
+    height: 173px;
+}
+
+.auto-style28 {
+    width: 170px;
+    text-align: center;
+    height: 173px;
+}
+
+.auto-style31 {
+    width: 646px;
+    text-align: center;
+}
+
+.auto-style36 {
+    text-align: left;
+    height: 54px;
+}
+
+.auto-style37 {
+    text-align: left;
+    height: 57px;
+}
 
 .headerBorder {
     border-bottom-style: double;
