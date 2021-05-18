@@ -15,9 +15,9 @@ namespace MichelinStarRestaurants
         {
             string region = Request.QueryString["region"];
             string rname = Request.QueryString["rname"];
-            string changedText = rname.Trim().Replace(" ", "_");
+            string changedText = region.Trim().Replace(" ", "_");
             changedText = changedText.ToLower();
-            string imgUrl = "pictures/restaurants/" + changedText + ".jpg";
+            string imgUrl = "pictures/" + changedText + ".jpeg";
             restaurantImg.ImageUrl = imgUrl;
             regionLtrl.Text = region;
 
@@ -58,5 +58,9 @@ namespace MichelinStarRestaurants
             Response.Redirect("Home.aspx#regionSelectionTable");
         }
 
+        protected void galleryLButton0_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Gallery.aspx");
+        }
     }
 }

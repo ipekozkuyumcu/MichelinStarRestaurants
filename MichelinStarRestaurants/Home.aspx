@@ -57,29 +57,9 @@
             width: 1490px;
             margin-left: 138px;
         }
-        
         .auto-style46 {
             width: 582px;
             text-align: center;
-        }
-    
-        .auto-style47 {
-            border-bottom-style: double;
-            border-bottom-color: #5B3889;
-            width: 100%;
-            height: 96px;
-            margin-left: 0px;
-        }
-        .auto-style48 {
-            font-family: "Berlin Sans";
-            font-size: 15px;
-            width: 100%;
-            height: 71px;
-            border-left-color: #5B3889;
-            border-right-color: #5B3889;
-            border-top-style: double;
-            border-top-color: #5B3889;
-            border-bottom-color: #5B3889;
         }
         .auto-style49 {
             text-align: center;
@@ -91,23 +71,23 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
-            <table class="auto-style47" id="header">
+       <div>
+            <table class="headerBorder" id="header">
                 <tr>
-                    <td class="auto-style2" id="logoImgHolder">
-                        <asp:Image ID="logoImg" runat="server" Height="173px" ImageUrl="~/pictures/logo.png" Width="362px" />
+                    <td class="logoStyle" id="logoImgHolder">
+                        <asp:Image ID="logoImg" runat="server" Height="168px" ImageUrl="~/pictures/logo.png" Width="364px"/>
                     </td>
-                    <td class="auto-style37" id="homeMenu">
-                        <p>
+                    <td class="menuButtonStyle1" id="homeMenu">
                         <asp:LinkButton ID="homeMenuLButton" runat="server" OnClick="homeMenuLButton_Click" CssClass="menuStyle">Home</asp:LinkButton>
-                        </p>
                     </td>
-                    <td class="auto-style36" id="searchMenu">
+                    <td class="menuButtonStyle2" id="searchMenu">
                         <asp:LinkButton ID="searchRestaurantLButton" runat="server" OnClick="searchRestaurantLButton_Click" CssClass="menuStyle">Search Restaurant</asp:LinkButton>
+                    </td>
+                     <td class="menuButtonStyle2" id="galleryMenu">
+                        <asp:LinkButton ID="galleryLButton0" runat="server" CssClass="menuStyle" OnClick="galleryLButton0_Click">Gallery</asp:LinkButton>
                     </td>
                 </tr>
             </table>
-            <br />
         </div>
         <div class="auto-style26" id="homeTitleTable">
             <h1 id="homeTitle" class="titleStyle">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<span class="titleStyle"> <span class="auto-style42">FIND MICHELIN STAR RESTAURANTS</span></span></h1>
@@ -130,7 +110,7 @@
                         By clicking on &quot;Search Restaurant&quot; tab from the menu above, or scrolling down you can select the region that you want to search a Michelin Starred restaurant at. Then this website will guide what you need to do in order to find out which Michelin Starred restaurants are located in your preferred area.
                         <br />
                         <br />
-                        By using &quot;Gallery&quot; tab from the menu above you can see some beautiful restaurant pictures and their locations.
+                        By using &quot;Gallery&quot; tab from the menu above you can see some beautiful restaurant pictures from each region.
                         <br />
                         <br />
                         Have fun!</span></td>
@@ -320,7 +300,7 @@
             <br />
         </div>
         <div>
-            <table class="auto-style48" id="footer">
+            <table class="footerStyle" id="footer">
                 <tr>
                     <td id="copyrightTextHolder" class="auto-style46">Copyright © 2021&nbsp;</td>
                     <td id="gitHubTextHolder" class="auto-style49">

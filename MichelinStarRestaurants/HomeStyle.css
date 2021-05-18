@@ -92,9 +92,9 @@
 .headerBorder {
     border-bottom-style: double;
     border-bottom-color: #5B3889;
-    width: 103%;
+    width: 100%;
     height: 96px;
-    margin-left: 60px;
+    margin-left: 0px;
 }
 
 .auto-style44 {
@@ -108,11 +108,29 @@
 .footerStyle {
     font-family: "Berlin Sans";
     font-size: 15px;
-    width: 118%;
+    width: 100%;
     height: 71px;
     border-left-color: #5B3889;
     border-right-color: #5B3889;
     border-top-style: double;
     border-top-color: #5B3889;
     border-bottom-color: #5B3889;
+}
+
+.logoStyle {
+    width: 817px;
+    text-align: left;
+    height: 172px;
+}
+
+.menuButtonStyle1 {
+    width: 85px;
+    text-align: center;
+    height: 172px;
+}
+
+.menuButtonStyle2 {
+    width: 125px;
+    text-align: left;
+    height: 172px;
 }

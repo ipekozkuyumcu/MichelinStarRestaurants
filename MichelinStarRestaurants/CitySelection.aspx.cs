@@ -95,5 +95,10 @@ namespace MichelinStarRestaurants
             
 
         }
+
+        protected void galleryLButton0_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Gallery.aspx");
+        }
     }
 }

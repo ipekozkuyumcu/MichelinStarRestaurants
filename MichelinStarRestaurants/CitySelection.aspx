@@ -50,41 +50,24 @@
             height: 57px;
         }
 
-        .auto-style38 {
-            border-bottom-style: double;
-            border-bottom-color: #5B3889;
-            width: 100%;
-            height: 96px;
-            margin-left: 0px;
-        }
-        .auto-style39 {
-            font-family: "Berlin Sans";
-            font-size: 15px;
-            width: 100%;
-            height: 71px;
-            border-left-color: #5B3889;
-            border-right-color: #5B3889;
-            border-top-style: double;
-            border-top-color: #5B3889;
-            border-bottom-color: #5B3889;
-        }
-
-
     </style>
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
-            <table class="auto-style38" id="header">
+       <div>
+            <table class="headerBorder" id="header">
                 <tr>
-                    <td class="auto-style27" id="logoImgHolder">
-                        <asp:Image ID="logoImg" runat="server" Height="169px" ImageUrl="~/pictures/logo.png" Width="365px" />
+                    <td class="logoStyle" id="logoImgHolder">
+                        <asp:Image ID="logoImg" runat="server" Height="168px" ImageUrl="~/pictures/logo.png" Width="364px"/>
                     </td>
-                    <td class="auto-style26" id="homeMenu">
+                    <td class="menuButtonStyle1" id="homeMenu">
                         <asp:LinkButton ID="homeMenuLButton" runat="server" OnClick="homeMenuLButton_Click" CssClass="menuStyle">Home</asp:LinkButton>
                     </td>
-                    <td class="auto-style28" id="searchMenu">
+                    <td class="menuButtonStyle2" id="searchMenu">
                         <asp:LinkButton ID="searchRestaurantLButton" runat="server" OnClick="searchRestaurantLButton_Click" CssClass="menuStyle">Search Restaurant</asp:LinkButton>
+                    </td>
+                     <td class="menuButtonStyle2" id="galleryMenu">
+                        <asp:LinkButton ID="galleryLButton0" runat="server" CssClass="menuStyle" OnClick="galleryLButton0_Click">Gallery</asp:LinkButton>
                     </td>
                 </tr>
             </table>
@@ -153,7 +136,7 @@
             <br />
         </div>
         <div>
-            <table class="auto-style39" id="footer">
+            <table class="footerStyle" id="footer">
                 <tr>
                     <td class="auto-style31" id="copyrightTextHolder">Copyright © 2021&nbsp;</td>
                     <td id="gitHubTextHolder">

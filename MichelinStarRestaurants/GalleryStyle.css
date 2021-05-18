@@ -1,15 +1,6 @@
 ﻿body {
     background-color: #E2E2E2;
 }
-
-.headerBorder {
-    border-bottom-style: double;
-    border-bottom-color: #5B3889;
-    width: 100%;
-    height: 96px;
-    margin-left: 0px;
-}
-
 .menuStyle {
     font-family: "berlin Sans FB";
     font-size: 25px;
@@ -23,24 +14,28 @@
     border-color: #5B3889;
 }
 
-.regionTextStyle {
-    font-family: "berlin Sans FB";
-    font-size: 20px;
-    color: #5B3889;
-}
-
 .textStyle {
     font-family: "Berlin Sans";
-    font-size: 23px;
-    width: 558px;
-    text-align: center;
-    height: 255px;
+    font-size: 18px;
 }
 
 .explanationStyle {
     font-family: "berlin Sans FB";
-    font-size: 20px;
+    font-size: 18px;
     color: #000000;
+}
+
+.footerStyle {
+    font-family: "Berlin Sans";
+    font-size: 15px;
+}
+
+.headerBorder {
+    border-bottom-style: double;
+    border-bottom-color: #5B3889;
+    width: 100%;
+    height: 96px;
+    margin-left: 0px;
 }
 
 .footerStyle {
@@ -53,4 +48,22 @@
     border-top-style: double;
     border-top-color: #5B3889;
     border-bottom-color: #5B3889;
+}
+
+.logoStyle {
+    width: 817px;
+    text-align: left;
+    height: 172px;
+}
+
+.menuButtonStyle1 {
+    width: 85px;
+    text-align: center;
+    height: 172px;
+}
+
+.menuButtonStyle2 {
+    width: 125px;
+    text-align: left;
+    height: 172px;
 }

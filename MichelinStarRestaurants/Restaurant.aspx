@@ -8,7 +8,7 @@
         <title></title>
     <style type="text/css">
          .auto-style16 {
-             width: 84%;
+            width: 84%;
             height: 501px;
             margin-left: 277px;
         }
@@ -51,30 +51,10 @@
             width: 253px;
             text-align: right;
         }
-        
         .auto-style58 {
             height: 50px;
             width: 253px;
             text-align: right;
-        }
-      
-        .auto-style59 {
-            border-bottom-style: double;
-            border-bottom-color: #5B3889;
-            width: 100%;
-            height: 96px;
-            margin-left: 0px;
-        }
-        .auto-style60 {
-            font-family: "Berlin Sans";
-            font-size: 15px;
-            width: 100%;
-            height: 71px;
-            border-left-color: #5B3889;
-            border-right-color: #5B3889;
-            border-top-style: double;
-            border-top-color: #5B3889;
-            border-bottom-color: #5B3889;
         }
       
     </style>
@@ -82,7 +62,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <table class="auto-style59" id="header">
+            <table class="headerBorder" id="header">
                 <tr>
                     <td class="auto-style26" id="logoImgHolder">
                         <asp:Image ID="logoImg" runat="server" Height="168px" ImageUrl="~/pictures/logo.png" Width="364px"/>
@@ -92,6 +72,9 @@
                     </td>
                     <td class="auto-style49" id="searchMenu">
                         <asp:LinkButton ID="searchRestaurantLButton" runat="server" OnClick="searchRestaurantLButton_Click" CssClass="menuStyle">Search Restaurant</asp:LinkButton>
+                    </td>
+                     <td class="auto-style49" id="galleryMenu">
+                        <asp:LinkButton ID="galleryLButton0" runat="server" CssClass="menuStyle" OnClick="galleryLButton0_Click">Gallery</asp:LinkButton>
                     </td>
                 </tr>
             </table>
@@ -114,7 +97,7 @@
                         &nbsp; 
                         <br />
                         <br />
-                        <asp:Image ID="restaurantImg" runat="server" Height="351px" ImageUrl="~/koala.png" Width="529px" CssClass="pictureBorder" />
+                        <asp:Image ID="restaurantImg" runat="server" Height="335px" ImageUrl="~/koala.png" Width="493px" CssClass="pictureBorder" />
                     </td>
                     <td id="restaurantNameTextHolder" class="auto-style36">
                         <table class="auto-style52">
@@ -148,7 +131,7 @@
                                 <td> <span class="textStyle">
                         <asp:HyperLink ID="restaurantUrlLink" runat="server">HyperLink</asp:HyperLink>
                         <br />
-                        <em>(You can find restaurant&#39;s location using the URL above.)</em></span></td>
+                        <em>(You can find restaurant&#39;s location and pictures using the URL above.)</em></span></td>
                             </tr>
                         </table>
                     </td>
@@ -163,7 +146,7 @@
             <br />
         </div>
         <div>
-            <table class="auto-style60" id="footer">
+            <table class="footerStyle" id="footer">
                 <tr>
                     <td class="auto-style43" id="copyrightTextHolder">Copyright © 2021&nbsp;      <td id="gitHubTextHolder" class="auto-style47">
                     <br />
