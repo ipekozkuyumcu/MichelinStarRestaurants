@@ -6,6 +6,67 @@
 <head runat="server">
     <link rel="stylesheet" href="HomeStyle.css"/>
     <title></title>
+    <style type="text/css">
+        .auto-style1 {
+            width: 86%;
+            height: 2363px;
+            margin-left: 102px;
+            margin-right: 0px;
+        }
+        .auto-style2 {
+            width: 16px;
+            height: 94px;
+            text-align: left;
+        }
+        .auto-style6 {
+            width: 529px;
+            text-align: center;
+        }
+        .auto-style25 {
+            width: 82%;
+            height: 501px;
+            margin-left: 131px;
+        }
+        .auto-style26 {
+            text-align: center;
+            height: 239px;
+            width: 1537px;
+            margin-left: 95px;
+        }
+        .auto-style31 {
+            text-align: center;
+        }
+        .auto-style32 {
+            font-size: large;
+        }
+        .auto-style36 {
+            width: 100px;
+            text-align: center;
+            height: 94px;
+        }
+        .auto-style37 {
+            width: 280px;
+            text-align: right;
+            height: 94px;
+        }
+        .auto-style38 {
+            width: 1628px;
+            margin-left: 0px;
+        }
+        .auto-style39 {
+            width: 1490px;
+            margin-left: 138px;
+        }
+        .auto-style46 {
+            width: 582px;
+            text-align: center;
+        }
+        .auto-style49 {
+            text-align: center;
+            width: 693px;
+        }
+    
+    </style>
     
 </head>
 <body>

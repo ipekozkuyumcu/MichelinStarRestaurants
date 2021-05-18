@@ -6,7 +6,58 @@
 <head runat="server">
     <link rel="stylesheet" href="RestaurantStyle.css"/>
         <title></title>
+    <style type="text/css">
+         .auto-style16 {
+            width: 84%;
+            height: 501px;
+            margin-left: 277px;
+        }
+        .auto-style26 {
+            width: 817px;
+            text-align: left;
+            height: 172px;
+        }
+        .auto-style27 {
+            width: 85px;
+            text-align: center;
+            height: 172px;
+        }
+        .auto-style36 {
+            text-align: left;
+            height: 255px;
+        }
+        .auto-style43 {
+            width: 400px;
+            text-align: center;
+        }
+        .auto-style47 {
+            width: 965px;
+            text-align: center;
+        }
+        
+        .auto-style49 {
+            width: 125px;
+            text-align: left;
+            height: 172px;
+        }
+        .auto-style52 {
+            width: 100%;
+            height: 294px;
+        }
+        .auto-style54 {
+            height: 50px;
+        }
+        .auto-style56 {
+            width: 253px;
+            text-align: right;
+        }
+        .auto-style58 {
+            height: 50px;
+            width: 253px;
+            text-align: right;
+        }
       
+    </style>
 </head>
 <body>
     <form id="form1" runat="server">
