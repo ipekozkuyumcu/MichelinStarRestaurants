@@ -36,7 +36,7 @@
         }
         .auto-style52 {
             width: 165px;
-            text-align: right;
+            text-align: left;
         }
         .auto-style53 {
             text-align: left;
