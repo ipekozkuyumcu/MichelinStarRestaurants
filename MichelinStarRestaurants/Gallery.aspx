@@ -42,6 +42,8 @@
             text-align: left;
         }
 
+        
+
        </style>
 </head>
 <body>
@@ -79,7 +81,7 @@
                     <br />
                     <table class="auto-style51">
                         <tr>
-                            <td>
+                            <td class="auto-style53">
                                 <asp:Image ID="galleryImg" runat="server" Height="259px" ImageUrl="~/pictures/gallery/esszimmer.jpg" Width="373px" CssClass="pictureBorder" />
                             </td>
                         </tr>
@@ -93,11 +95,15 @@
                     Location:&nbsp;&nbsp;&nbsp;&nbsp; <br />
                     <br />
                     Url:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></td>
-                                        <td class="auto-style53"><span class="textStyle">Esszimmer<br />
+                                        <td class="auto-style53"><span class="textStyle">
+                                            <br />
+                                            Esszimmer<br />
                                             <br />
                                             Austria / Salzburg<br />
                                             <br />
-                                            </span><a href="https://guide.michelin.com/at/en/salzburg-region/salzburg/restaurant/esszimmer">https://guide.michelin.com/at/en/salzburg-region/salzburg/restaurant/esszimmer</a> </td>
+                                            </span><a href="https://guide.michelin.com/at/en/salzburg-region/salzburg/restaurant/esszimmer">https://guide.michelin.com/at/en/salzburg-region/salzburg/restaurant/esszimmer</a>
+                                            <br />
+                                        </td>
                                     </tr>
                                 </table>
                             </td>
@@ -108,8 +114,8 @@
                 <td class="auto-style50" id="california">
                     <table class="auto-style51">
                         <tr>
-                            <td>
-                                <asp:Image ID="galleryImg0" runat="server" Height="259px" ImageUrl="~/koala.png" Width="373px" CssClass="pictureBorder" />
+                            <td class="auto-style53">
+                                <asp:Image ID="galleryImg0" runat="server" Height="259px" ImageUrl="~/pictures/gallery/sushi_ginza_onodera.jpg" Width="373px" CssClass="pictureBorder" />
                             </td>
                         </tr>
                         <tr>
@@ -122,11 +128,13 @@
                     Location:&nbsp;&nbsp;&nbsp;&nbsp; <br />
                     <br />
                     Url:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></td>
-                                        <td class="auto-style53"><span class="textStyle">bla bla<br />
+                                        <td class="auto-style53"><span class="textStyle">
                                             <br />
-                                            bla bla<br />
+                                            Sushi Ginza Onodera<br />
                                             <br />
-                                            bla bla </span></td>
+                                            California / Los Angeles<br />
+                                            <br />
+                                            </span><span class="urlStyle"><a href="https://guide.michelin.com/us/en/california/west-hollywood/restaurant/sushi-ginza-onodera559850">https://guide.michelin.com/us/en/california/west-hollywood/restaurant/sushi-ginza-onodera559850</a></span><span class="textStyle"> </span></td>
                                     </tr>
                                 </table>
                             </td>
@@ -136,8 +144,8 @@
                 <td class="auto-style50" id="chicago">
                     <table class="auto-style51">
                         <tr>
-                            <td>
-                                <asp:Image ID="galleryImg1" runat="server" Height="259px" ImageUrl="~/koala.png" Width="373px" CssClass="pictureBorder" />
+                            <td class="auto-style53">
+                                <asp:Image ID="galleryImg1" runat="server" Height="259px" ImageUrl="~/pictures/gallery/goosefoot.jpg" Width="373px" CssClass="pictureBorder" />
                             </td>
                         </tr>
                         <tr>
@@ -150,11 +158,14 @@
                     Location:&nbsp;&nbsp;&nbsp;&nbsp; <br />
                     <br />
                     Url:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></td>
-                                        <td class="auto-style53"><span class="textStyle">bla bla<br />
+                                        <td class="auto-style53"><span class="textStyle">
                                             <br />
-                                            bla bla<br />
+                                            Goosefoot<br />
                                             <br />
-                                            bla bla </span></td>
+                                            Chicago<br />
+                                            <br />
+                                            </span><span class="urlStyle"><a href="https://guide.michelin.com/us/en/illinois/chicago/restaurant/goosefoot">https://guide.michelin.com/us/en/illinois/chicago/</a><br />
+                                            <a href="https://guide.michelin.com/us/en/illinois/chicago/restaurant/goosefoot">restaurant/goosefoot</a></span><span class="textStyle">&nbsp; </span></td>
                                     </tr>
                                 </table>
                             </td>
@@ -167,8 +178,8 @@
                     <br />
                     <table class="auto-style51">
                         <tr>
-                            <td>
-                                <asp:Image ID="galleryImg2" runat="server" Height="259px" ImageUrl="~/koala.png" Width="373px" CssClass="pictureBorder" />
+                            <td class="auto-style53">
+                                <asp:Image ID="galleryImg2" runat="server" Height="259px" ImageUrl="~/pictures/gallery/360º.jpg" Width="373px" CssClass="pictureBorder" />
                             </td>
                         </tr>
                         <tr>
@@ -176,16 +187,18 @@
                                 <table class="auto-style51">
                                     <tr>
                                         <td class="auto-style52"><span class="explanationStyle">
-                    Restaurant Name:&nbsp;&nbsp;&nbsp;&nbsp; <br />
+                                            Restaurant Name:&nbsp;&nbsp;&nbsp;&nbsp;<br />
                                             <br />
                     Location:&nbsp;&nbsp;&nbsp;&nbsp; <br />
                     <br />
                     Url:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></td>
-                                        <td class="auto-style53"><span class="textStyle">bla bla<br />
+                                        <td class="auto-style53"><span class="textStyle">
                                             <br />
-                                            bla bla<br />
+                                            Restaurant 360<br />
                                             <br />
-                                            bla bla </span></td>
+                                            Croatia / Dubrovnik<br />
+                                            <br />
+                                            </span><span class="urlStyle"><a href="https://guide.michelin.com/hr/en/dubrovnik-neretva/dubrovnik/restaurant/360º">https://guide.michelin.com/hr/en/dubrovnik-neretva/dubrovnik/restaurant/360%C2%BA</a></span><span class="textStyle"> </span></td>
                                     </tr>
                                 </table>
                             </td>
@@ -193,11 +206,10 @@
                     </table>
                     </td>
                 <td class="auto-style50" id="czechia">
-                    <br />
                     <table class="auto-style51">
                         <tr>
-                            <td>
-                                <asp:Image ID="galleryImg3" runat="server" Height="259px" ImageUrl="~/koala.png" Width="373px" CssClass="pictureBorder" />
+                            <td class="auto-style53">
+                                <asp:Image ID="galleryImg3" runat="server" Height="259px" ImageUrl="~/pictures/gallery/field.jpg" Width="373px" CssClass="pictureBorder" />
                             </td>
                         </tr>
                         <tr>
@@ -210,11 +222,14 @@
                     Location:&nbsp;&nbsp;&nbsp;&nbsp; <br />
                     <br />
                     Url:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></td>
-                                        <td class="auto-style53"><span class="textStyle">bla bla<br />
+                                        <td class="auto-style53"><span class="textStyle">
                                             <br />
-                                            bla bla<br />
+                                            Field<br />
                                             <br />
-                                            bla bla </span></td>
+                                            Czech Republic / Prague<br />
+                                            <br />
+                                            </span><span class="urlStyle"><a href="https://guide.michelin.com/cz/en/prague/prague/restaurant/field">https://guide.michelin.com/cz/en/prague/prague/</a><br />
+                                            <a href="https://guide.michelin.com/cz/en/prague/prague/restaurant/field">restaurant/field</a></span><span class="textStyle"> </span></td>
                                     </tr>
                                 </table>
                             </td>
@@ -225,8 +240,8 @@
                     <br />
                     <table class="auto-style51">
                         <tr>
-                            <td>
-                                <asp:Image ID="galleryImg4" runat="server" Height="259px" ImageUrl="~/koala.png" Width="373px" CssClass="pictureBorder" />
+                            <td class="auto-style53">
+                                <asp:Image ID="galleryImg4" runat="server" Height="259px" ImageUrl="~/pictures/gallery/kiin_kiin.jpg" Width="373px" CssClass="pictureBorder" />
                             </td>
                         </tr>
                         <tr>
@@ -239,11 +254,13 @@
                     Location:&nbsp;&nbsp;&nbsp;&nbsp; <br />
                     <br />
                     Url:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></td>
-                                        <td class="auto-style53"><span class="textStyle">bla bla<br />
+                                        <td class="auto-style53"><span class="textStyle">
                                             <br />
-                                            bla bla<br />
+                                            Kiin Kiin<br />
                                             <br />
-                                            bla bla </span></td>
+                                            Denmark / Kopenhagen<br />
+                                            <br />
+                                            </span><span class="urlStyle"><a href="https://guide.michelin.com/dk/en/capital-region/copenhagen/restaurant/kiin-kiin">https://guide.michelin.com/dk/en/capital-region/copenhagen/restaurant/kiin-kiin</a></span><span class="textStyle"> </span></td>
                                     </tr>
                                 </table>
                             </td>
@@ -256,8 +273,8 @@
                     <br />
                     <table class="auto-style51">
                         <tr>
-                            <td>
-                                <asp:Image ID="galleryImg5" runat="server" Height="259px" ImageUrl="~/koala.png" Width="373px" CssClass="pictureBorder" />
+                            <td class="auto-style53">
+                                <asp:Image ID="galleryImg5" runat="server" Height="259px" ImageUrl="~/pictures/gallery/olo.jpg" Width="373px" CssClass="pictureBorder" />
                             </td>
                         </tr>
                         <tr>
@@ -265,16 +282,20 @@
                                 <table class="auto-style51">
                                     <tr>
                                         <td class="auto-style52"><span class="explanationStyle">
+                                            <br />
                     Restaurant Name:&nbsp;&nbsp;&nbsp;&nbsp; <br />
                                             <br />
                     Location:&nbsp;&nbsp;&nbsp;&nbsp; <br />
                     <br />
                     Url:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></td>
-                                        <td class="auto-style53"><span class="textStyle">bla bla<br />
+                                        <td class="auto-style53"><span class="textStyle">
                                             <br />
-                                            bla bla<br />
+                                            Olo<br />
                                             <br />
-                                            bla bla </span></td>
+                                            Finland / Helsinki<br />
+                                            <br />
+                                            </span><span class="urlStyle"><a href="https://guide.michelin.com/fi/en/uusimaa/helsinki/restaurant/olo">https://guide.michelin.com/fi/en/uusimaa/helsinki/</a><br />
+                                            <a href="https://guide.michelin.com/fi/en/uusimaa/helsinki/restaurant/olo">restaurant/olo</a></span><span class="textStyle"> </span></td>
                                     </tr>
                                 </table>
                             </td>
@@ -285,8 +306,8 @@
                 <td class="auto-style50" id="greece">
                     <table class="auto-style51">
                         <tr>
-                            <td>
-                                <asp:Image ID="galleryImg6" runat="server" Height="259px" ImageUrl="~/koala.png" Width="373px" CssClass="pictureBorder" />
+                            <td class="auto-style53">
+                                <asp:Image ID="galleryImg6" runat="server" Height="259px" ImageUrl="~/pictures/gallery/spondi.jpg" Width="373px" CssClass="pictureBorder" />
                             </td>
                         </tr>
                         <tr>
@@ -299,11 +320,14 @@
                     Location:&nbsp;&nbsp;&nbsp;&nbsp; <br />
                     <br />
                     Url:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></td>
-                                        <td class="auto-style53"><span class="textStyle">bla bla<br />
+                                        <td class="auto-style53"><span class="textStyle">
                                             <br />
-                                            bla bla<br />
+                                            Spondi<br />
                                             <br />
-                                            bla bla </span></td>
+                                            Greece / Athens<br />
+                                            <br />
+                                            </span><a href="https://guide.michelin.com/gr/en/attica/athens/restaurant/spondi">https://guide.michelin.com/gr/en/attica/athens/</a><br />
+                                            <a href="https://guide.michelin.com/gr/en/attica/athens/restaurant/spondi">restaurant/spondi</a> </td>
                                     </tr>
                                 </table>
                             </td>
@@ -313,8 +337,8 @@
                 <td class="auto-style50" id="hongKong">
                     <table class="auto-style51">
                         <tr>
-                            <td>
-                                <asp:Image ID="galleryImg7" runat="server" Height="259px" ImageUrl="~/koala.png" Width="373px" CssClass="pictureBorder" />
+                            <td class="auto-style53">
+                                <asp:Image ID="galleryImg7" runat="server" Height="259px" ImageUrl="~/pictures/gallery/lung_king_heen.jpg" Width="373px" CssClass="pictureBorder" />
                             </td>
                         </tr>
                         <tr>
@@ -327,11 +351,14 @@
                     Location:&nbsp;&nbsp;&nbsp;&nbsp; <br />
                     <br />
                     Url:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></td>
-                                        <td class="auto-style53"><span class="textStyle">bla bla<br />
+                                        <td class="auto-style53"><span class="textStyle">
                                             <br />
-                                            bla bla<br />
+                                            Lung King Heen<br />
                                             <br />
-                                            bla bla </span></td>
+                                            Hong Kong<br />
+                                            <br />
+                                            </span><span class="urlStyle"><a href="https://guide.michelin.com/hk/en/hong-kong-region/hong-kong/restaurant/lung-king-heen">https://guide.michelin.com/hk/en/hong-kong-region/</a><br />
+                                            <a href="https://guide.michelin.com/hk/en/hong-kong-region/hong-kong/restaurant/lung-king-heen">hong-kong/restaurant/lung-king-heen</a></span><span class="textStyle"> </span></td>
                                     </tr>
                                 </table>
                             </td>
@@ -345,8 +372,8 @@
                     <br />
                     <table class="auto-style51">
                         <tr>
-                            <td>
-                                <asp:Image ID="galleryImg8" runat="server" Height="259px" ImageUrl="~/koala.png" Width="373px" CssClass="pictureBorder" />
+                            <td class="auto-style53">
+                                <asp:Image ID="galleryImg8" runat="server" Height="259px" ImageUrl="~/pictures/gallery/costes.jpg" Width="373px" CssClass="pictureBorder" />
                             </td>
                         </tr>
                         <tr>
@@ -359,11 +386,13 @@
                     Location:&nbsp;&nbsp;&nbsp;&nbsp; <br />
                     <br />
                     Url:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></td>
-                                        <td class="auto-style53"><span class="textStyle">bla bla<br />
+                                        <td class="auto-style53"><span class="textStyle">
                                             <br />
-                                            bla bla<br />
+                                            Costes<br />
                                             <br />
-                                            bla bla </span></td>
+                                            Hungary / Budapest<br />
+                                            <br />
+                                            </span><span class="urlStyle"><a href="https://guide.michelin.com/hu/en/central-hungary/budapest/restaurant/costes">https://guide.michelin.com/hu/en/central-hungary/budapest/restaurant/costes</a></span><span class="textStyle"> </span></td>
                                     </tr>
                                 </table>
                             </td>
@@ -375,8 +404,8 @@
                 <td class="auto-style50" id="ireland">
                     <table class="auto-style51">
                         <tr>
-                            <td>
-                                <asp:Image ID="galleryImg9" runat="server" Height="259px" ImageUrl="~/koala.png" Width="373px" CssClass="pictureBorder" />
+                            <td class="auto-style53">
+                                <asp:Image ID="galleryImg9" runat="server" Height="259px" ImageUrl="~/pictures/gallery/greenhouse.jpg" Width="373px" CssClass="pictureBorder" />
                             </td>
                         </tr>
                         <tr>
@@ -389,11 +418,14 @@
                     Location:&nbsp;&nbsp;&nbsp;&nbsp; <br />
                     <br />
                     Url:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></td>
-                                        <td class="auto-style53"><span class="textStyle">bla bla<br />
+                                        <td class="auto-style53"><span class="textStyle">
                                             <br />
-                                            bla bla<br />
+                                            Greenhouse<br />
                                             <br />
-                                            bla bla </span></td>
+                                            Ireland / Dublin (City Centre)<br />
+                                            <br />
+                                            </span><span class="urlStyle"><a href="https://guide.michelin.com/ie/en/dublin/dublin/restaurant/greenhouse">https://guide.michelin.com/ie/en/dublin/dublin/</a><br />
+                                            <a href="https://guide.michelin.com/ie/en/dublin/dublin/restaurant/greenhouse">restaurant/greenhouse</a></span><span class="textStyle"> </span></td>
                                     </tr>
                                 </table>
                             </td>
@@ -403,8 +435,8 @@
                 <td class="auto-style50" id="macau">
                     <table class="auto-style51">
                         <tr>
-                            <td>
-                                <asp:Image ID="galleryImg10" runat="server" Height="259px" ImageUrl="~/koala.png" Width="373px" CssClass="pictureBorder" />
+                            <td class="auto-style53">
+                                <asp:Image ID="galleryImg10" runat="server" Height="259px" ImageUrl="~/pictures/gallery/golden.jpg" Width="373px" CssClass="pictureBorder" />
                             </td>
                         </tr>
                         <tr>
@@ -417,11 +449,13 @@
                     Location:&nbsp;&nbsp;&nbsp;&nbsp; <br />
                     <br />
                     Url:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></td>
-                                        <td class="auto-style53"><span class="textStyle">bla bla<br />
+                                        <td class="auto-style53"><span class="textStyle">
                                             <br />
-                                            bla bla<br />
+                                            The Golden Peacock<br />
                                             <br />
-                                            bla bla </span></td>
+                                            Macau <br />
+                                            <br />
+                                            </span><span class="urlStyle"><a href="https://guide.michelin.com/mo/en/macau-region/macau/restaurant/the-golden-peacock">https://guide.michelin.com/mo/en/macau-region/macau/restaurant/the-golden-peacock</a></span><span class="textStyle"> </span></td>
                                     </tr>
                                 </table>
                             </td>
@@ -434,8 +468,8 @@
                     <br />
                     <table class="auto-style51">
                         <tr>
-                            <td>
-                                <asp:Image ID="galleryImg11" runat="server" Height="259px" ImageUrl="~/koala.png" Width="373px" CssClass="pictureBorder" />
+                            <td class="auto-style53">
+                                <asp:Image ID="galleryImg11" runat="server" Height="259px" ImageUrl="~/pictures/gallery/blue_hill.jpg" Width="373px" CssClass="pictureBorder" />
                             </td>
                         </tr>
                         <tr>
@@ -448,11 +482,13 @@
                     Location:&nbsp;&nbsp;&nbsp;&nbsp; <br />
                     <br />
                     Url:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></td>
-                                        <td class="auto-style53"><span class="textStyle">bla bla<br />
+                                        <td class="auto-style53"><span class="textStyle">
                                             <br />
-                                            bla bla<br />
+                                            Blue Hill<br />
                                             <br />
-                                            bla bla </span></td>
+                                            New York City<br />
+                                            <br />
+                                            </span><span class="urlStyle"><a href="https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/blue-hill">https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/blue-hill</a></span><span class="textStyle"> </span></td>
                                     </tr>
                                 </table>
                             </td>
@@ -463,8 +499,8 @@
                 <td class="auto-style50" id="norway">
                     <table class="auto-style51">
                         <tr>
-                            <td>
-                                <asp:Image ID="galleryImg12" runat="server" Height="259px" ImageUrl="~/koala.png" Width="373px" CssClass="pictureBorder" />
+                            <td class="auto-style53">
+                                <asp:Image ID="galleryImg12" runat="server" Height="259px" ImageUrl="~/pictures/gallery/kontrast.jpg" Width="373px" CssClass="pictureBorder" />
                             </td>
                         </tr>
                         <tr>
@@ -477,11 +513,13 @@
                     Location:&nbsp;&nbsp;&nbsp;&nbsp; <br />
                     <br />
                     Url:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></td>
-                                        <td class="auto-style53"><span class="textStyle">bla bla<br />
+                                        <td class="auto-style53"><span class="textStyle">
                                             <br />
-                                            bla bla<br />
+                                            Kontrast<br />
                                             <br />
-                                            bla bla </span></td>
+                                            Norway / Oslo<br />
+                                            <br />
+                                            </span><span class="urlStyle"><a href="https://guide.michelin.com/no/en/oslo-region/oslo/restaurant/kontrast">https://guide.michelin.com/no/en/oslo-region/oslo/restaurant/kontrast</a></span><span class="textStyle"> </span></td>
                                     </tr>
                                 </table>
                             </td>
@@ -491,8 +529,8 @@
                 <td class="auto-style50" id="poland">
                     <table class="auto-style51">
                         <tr>
-                            <td>
-                                <asp:Image ID="galleryImg13" runat="server" Height="259px" ImageUrl="~/koala.png" Width="373px" CssClass="pictureBorder" />
+                            <td class="auto-style53">
+                                <asp:Image ID="galleryImg13" runat="server" Height="259px" ImageUrl="~/pictures/gallery/atelier-amaro-restaurant.jpg" Width="373px" CssClass="pictureBorder" />
                             </td>
                         </tr>
                         <tr>
@@ -505,11 +543,14 @@
                     Location:&nbsp;&nbsp;&nbsp;&nbsp; <br />
                     <br />
                     Url:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></td>
-                                        <td class="auto-style53"><span class="textStyle">bla bla<br />
+                                        <td class="auto-style53"><span class="textStyle">
                                             <br />
-                                            bla bla<br />
+                                            atelier Amaro<br />
                                             <br />
-                                            bla bla </span></td>
+                                            Poland / Warsaw<br />
+                                            <br />
+                                            </span><span class="urlStyle"><a href="https://guide.michelin.com/pl/en/masovia/warsaw/restaurant/atelier-amaro">https://guide.michelin.com/pl/en/masovia/warsaw/</a><br />
+                                            <a href="https://guide.michelin.com/pl/en/masovia/warsaw/restaurant/atelier-amaro">restaurant/atelier-amaro</a></span><span class="textStyle"><span class="urlStyle">&nbsp; </span> </span></td>
                                     </tr>
                                 </table>
                             </td>
@@ -522,8 +563,8 @@
                     <br />
                     <table class="auto-style51">
                         <tr>
-                            <td>
-                                <asp:Image ID="galleryImg14" runat="server" Height="259px" ImageUrl="~/koala.png" Width="373px" CssClass="pictureBorder" />
+                            <td class="auto-style53">
+                                <asp:Image ID="galleryImg14" runat="server" Height="259px" ImageUrl="~/pictures/gallery/lasai.jpg" Width="373px" CssClass="pictureBorder" />
                             </td>
                         </tr>
                         <tr>
@@ -536,11 +577,13 @@
                     Location:&nbsp;&nbsp;&nbsp;&nbsp; <br />
                     <br />
                     Url:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></td>
-                                        <td class="auto-style53"><span class="textStyle">bla bla<br />
+                                        <td class="auto-style53"><span class="textStyle">
                                             <br />
-                                            bla bla<br />
+                                            Lasai<br />
                                             <br />
-                                            bla bla </span></td>
+                                            Rio de Janerio<br />
+                                            <br />
+                                            </span><span class="urlStyle"><a href="https://guide.michelin.com/br/en/rio-de-janeiro-region/rio-de-janeiro/restaurant/lasai">https://guide.michelin.com/br/en/rio-de-janeiro-region/rio-de-janeiro/restaurant/lasai</a></span><span class="textStyle"><span class="urlStyle">&nbsp; </span> </span></td>
                                     </tr>
                                 </table>
                             </td>
@@ -551,8 +594,8 @@
                 <td class="auto-style50" id="saoPaulo">
                     <table class="auto-style51">
                         <tr>
-                            <td>
-                                <asp:Image ID="galleryImg15" runat="server" Height="259px" ImageUrl="~/koala.png" Width="373px" CssClass="pictureBorder" />
+                            <td class="auto-style53">
+                                <asp:Image ID="galleryImg15" runat="server" Height="259px" ImageUrl="~/pictures/gallery/kosushi.jpg" Width="373px" CssClass="pictureBorder" />
                             </td>
                         </tr>
                         <tr>
@@ -565,11 +608,13 @@
                     Location:&nbsp;&nbsp;&nbsp;&nbsp; <br />
                     <br />
                     Url:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></td>
-                                        <td class="auto-style53"><span class="textStyle">bla bla<br />
+                                        <td class="auto-style53"><span class="textStyle">
                                             <br />
-                                            bla bla<br />
+                                            Kosushi<br />
                                             <br />
-                                            bla bla </span></td>
+                                            Sao Paulo<br />
+                                            <br />
+                                            </span><span class="urlStyle"><a href="https://guide.michelin.com/br/en/sao-paulo-region/sao-paulo/restaurant/kosushi">https://guide.michelin.com/br/en/sao-paulo-region/sao-paulo/restaurant/kosushi</a></span><span class="textStyle">&nbsp; </span></td>
                                     </tr>
                                 </table>
                             </td>
@@ -579,8 +624,8 @@
                 <td class="auto-style50" id="singapore">
                     <table class="auto-style51">
                         <tr>
-                            <td>
-                                <asp:Image ID="galleryImg16" runat="server" Height="259px" ImageUrl="~/koala.png" Width="373px" CssClass="pictureBorder" />
+                            <td class="auto-style53">
+                                <asp:Image ID="galleryImg16" runat="server" Height="259px" ImageUrl="~/pictures/gallery/crystal.jpg" Width="373px" CssClass="pictureBorder" />
                             </td>
                         </tr>
                         <tr>
@@ -593,11 +638,13 @@
                     Location:&nbsp;&nbsp;&nbsp;&nbsp; <br />
                     <br />
                     Url:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></td>
-                                        <td class="auto-style53"><span class="textStyle">bla bla<br />
+                                        <td class="auto-style53"><span class="textStyle">
                                             <br />
-                                            bla bla<br />
+                                            Crystal Jade Golden Palace<br />
                                             <br />
-                                            bla bla </span></td>
+                                            Singapore<br />
+                                            <br />
+                                            </span><span class="urlStyle"><a href="https://guide.michelin.com/sg/en/singapore-region/singapore/restaurant/crystal-jade-golden-palace">https://guide.michelin.com/sg/en/singapore-region/singapore/restaurant/crystal-jade-golden-palace</a></span><span class="textStyle"> </span></td>
                                     </tr>
                                 </table>
                             </td>
@@ -609,8 +656,8 @@
                 <td class="auto-style50" id="southKorea">
                     <table class="auto-style51">
                         <tr>
-                            <td>
-                                <asp:Image ID="galleryImg23" runat="server" Height="259px" ImageUrl="~/koala.png" Width="373px" CssClass="pictureBorder" />
+                            <td class="auto-style53">
+                                <asp:Image ID="galleryImg23" runat="server" Height="259px" ImageUrl="~/pictures/gallery/save.jpg" Width="373px" CssClass="pictureBorder" />
                             </td>
                         </tr>
                         <tr>
@@ -623,11 +670,13 @@
                     Location:&nbsp;&nbsp;&nbsp;&nbsp; <br />
                     <br />
                     Url:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></td>
-                                        <td class="auto-style53"><span class="textStyle">bla bla<br />
+                                        <td class="auto-style53"><span class="textStyle">
                                             <br />
-                                            bla bla<br />
+                                            Stay<br />
                                             <br />
-                                            bla bla </span></td>
+                                            South Korea / Seoul<br />
+                                            <br />
+                                            </span><span class="urlStyle"><a href="https://guide.michelin.com/kr/en/seoul-capital-area/kr-seoul/restaurant/stay">https://guide.michelin.com/kr/en/seoul-capital-area/kr-seoul/restaurant/stay</a></span><span class="textStyle"> </span></td>
                                     </tr>
                                 </table>
                             </td>
@@ -637,8 +686,8 @@
                 <td class="auto-style50" id="sweden">
                     <table class="auto-style51">
                         <tr>
-                            <td>
-                                <asp:Image ID="galleryImg18" runat="server" Height="259px" ImageUrl="~/koala.png" Width="373px" CssClass="pictureBorder" />
+                            <td class="auto-style53">
+                                <asp:Image ID="galleryImg18" runat="server" Height="259px" ImageUrl="~/pictures/gallery/aloe.jpg" Width="373px" CssClass="pictureBorder" />
                             </td>
                         </tr>
                         <tr>
@@ -651,11 +700,13 @@
                     Location:&nbsp;&nbsp;&nbsp;&nbsp; <br />
                     <br />
                     Url:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></td>
-                                        <td class="auto-style53"><span class="textStyle">bla bla<br />
+                                        <td class="auto-style53"><span class="textStyle">
                                             <br />
-                                            bla bla<br />
+                                            Aloe<br />
                                             <br />
-                                            bla bla </span></td>
+                                            Sweden / Stockholm<br />
+                                            <br />
+                                            </span><span class="urlStyle"><a href="https://guide.michelin.com/se/en/stockholm-region/stockholm/restaurant/aloe">https://guide.michelin.com/se/en/stockholm-region/stockholm/restaurant/aloe</a></span><span class="textStyle"> </span></td>
                                     </tr>
                                 </table>
                             </td>
@@ -665,8 +716,8 @@
                 <td class="auto-style50" id="taipei">
                     <table class="auto-style51">
                         <tr>
-                            <td>
-                                <asp:Image ID="galleryImg19" runat="server" Height="259px" ImageUrl="~/koala.png" Width="373px" CssClass="pictureBorder" />
+                            <td class="auto-style53">
+                                <asp:Image ID="galleryImg19" runat="server" Height="259px" ImageUrl="~/pictures/gallery/ming_fu.jpg" Width="373px" CssClass="pictureBorder" />
                             </td>
                         </tr>
                         <tr>
@@ -679,11 +730,15 @@
                     Location:&nbsp;&nbsp;&nbsp;&nbsp; <br />
                     <br />
                     Url:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></td>
-                                        <td class="auto-style53"><span class="textStyle">bla bla<br />
+                                        <td class="auto-style53"><span class="textStyle">
                                             <br />
-                                            bla bla<br />
+                                            Ming Fu<br />
                                             <br />
-                                            bla bla </span></td>
+                                            Taipei<br />
+                                            <br />
+                                            </span><span class="urlStyle"><a href="https://guide.michelin.com/tw/en/taipei-region/taipei/restaurant/ming-fu">https://guide.michelin.com/tw/en/taipei-region/taipei/restaurant/ming-fu</a></span><span class="textStyle">
+                                            <br />
+                                            </span></td>
                                     </tr>
                                 </table>
                             </td>
@@ -696,8 +751,8 @@
                     <br />
                     <table class="auto-style51">
                         <tr>
-                            <td>
-                                <asp:Image ID="galleryImg20" runat="server" Height="259px" ImageUrl="~/koala.png" Width="373px" CssClass="pictureBorder" />
+                            <td class="auto-style53">
+                                <asp:Image ID="galleryImg20" runat="server" Height="259px" ImageUrl="~/pictures/gallery/saawaan.jpg" Width="373px" CssClass="pictureBorder" />
                             </td>
                         </tr>
                         <tr>
@@ -710,11 +765,13 @@
                     Location:&nbsp;&nbsp;&nbsp;&nbsp; <br />
                     <br />
                     Url:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></td>
-                                        <td class="auto-style53"><span class="textStyle">bla bla<br />
+                                        <td class="auto-style53"><span class="textStyle">
                                             <br />
-                                            bla bla<br />
+                                            Saawaan<br />
                                             <br />
-                                            bla bla </span></td>
+                                            Thailand / Bangkok<br />
+                                            <br />
+                                            </span><span class="urlStyle"><a href="https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/saawaan">https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/saawaan</a></span><span class="textStyle"> </span></td>
                                     </tr>
                                 </table>
                             </td>
@@ -725,8 +782,8 @@
                 <td class="auto-style50" id="unitedKingdom">
                     <table class="auto-style51">
                         <tr>
-                            <td>
-                                <asp:Image ID="galleryImg21" runat="server" Height="259px" ImageUrl="~/koala.png" Width="373px" CssClass="pictureBorder" />
+                            <td class="auto-style53">
+                                <asp:Image ID="galleryImg21" runat="server" Height="259px" ImageUrl="~/pictures/gallery/quilon.jpg" Width="373px" CssClass="pictureBorder" />
                             </td>
                         </tr>
                         <tr>
@@ -739,11 +796,13 @@
                     Location:&nbsp;&nbsp;&nbsp;&nbsp; <br />
                     <br />
                     Url:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></td>
-                                        <td class="auto-style53"><span class="textStyle">bla bla<br />
+                                        <td class="auto-style53"><span class="textStyle">
                                             <br />
-                                            bla bla<br />
+                                            Quilon<br />
                                             <br />
-                                            bla bla </span></td>
+                                            United Kingdom / London (Victoria)<br />
+                                            <br />
+                                            </span><span class="urlStyle"><a href="https://guide.michelin.com/gb/en/greater-london/london/restaurant/quilon">https://guide.michelin.com/gb/en/greater-london/london/restaurant/quilon</a></span><span class="textStyle"> </span></td>
                                     </tr>
                                 </table>
                             </td>
@@ -753,8 +812,8 @@
                 <td class="auto-style50" id="washingtonDC">
                     <table class="auto-style51">
                         <tr>
-                            <td>
-                                <asp:Image ID="galleryImg22" runat="server" Height="259px" ImageUrl="~/koala.png" Width="373px" CssClass="pictureBorder" />
+                            <td class="auto-style53">
+                                <asp:Image ID="galleryImg22" runat="server" Height="259px" ImageUrl="~/pictures/gallery/fiola.jpg" Width="373px" CssClass="pictureBorder" />
                             </td>
                         </tr>
                         <tr>
@@ -767,11 +826,13 @@
                     Location:&nbsp;&nbsp;&nbsp;&nbsp; <br />
                     <br />
                     Url:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></td>
-                                        <td class="auto-style53"><span class="textStyle">bla bla<br />
+                                        <td class="auto-style53"><span class="textStyle">
                                             <br />
-                                            bla bla<br />
+                                            Fiola<br />
                                             <br />
-                                            bla bla </span></td>
+                                            Washington DC<br />
+                                            <br />
+                                            </span><span class="urlStyle"><a href="https://guide.michelin.com/us/en/district-of-columbia/washington-dc/restaurant/fiola">https://guide.michelin.com/us/en/district-of-columbia/washington-dc/restaurant/fiola</a></span><span class="textStyle"> </span></td>
                                     </tr>
                                 </table>
                             </td>
@@ -781,6 +842,7 @@
             </tr>
         </table>
         <div id="blank3">
+            <br />
             <br />
             <br />
             <br />
